@@ -1,30 +1,13 @@
-Honda Civic 1.8 Sport,522.500 TL,2006 km,294.000 km,Gri (Gümüþ) km,05 Kasým 2024 km,Balýkesir Karesi km,Unpainted-Unchanging-Without Tramer
-Renault Clio 1.0 TCe Evolution,1.070.000 TL,2024 km,12.000 km,Lacivert km,05 Kasým 2024 km,Kayseri Melikgazi km,Unpainted-Unchanging-Without Tramer
-BMW 4 Serisi 420i Gran Coupe M Sport,3.250.000 TL,2022 km,17.000 km,Siyah km,05 Kasým 2024 km,Kocaeli Ýzmit km,Unpainted-Unchanging-Without Tramer
-Skoda Scala 1.0 TSI Premium,1.249.040 TL,2020 km,38.400 km,Kýrmýzý km,05 Kasým 2024 km,Kýrþehir Merkez km,Unpainted-Unchanging-Without Tramer
-Audi A4 Sedan 1.4 TFSI,1.695.000 TL,2018 km,151.500 km,Beyaz km,05 Kasým 2024 km,Ýzmir Gaziemir km,Unpainted-Unchanging-Without Tramer
+Fiat Egea 1.4 Fire Easy Plus,815.000 TL,2022 km,15.000 km,Beyaz km,10 Kasým 2024 km,Ýzmir Bergama km,Unpainted-Unchanging-Without Tramer
+Ford Focus 1.5 TDCi Titanium,1.255.000 TL,2020 km,128.500 km,Beyaz km,09 Kasým 2024 km,Denizli Sarayköy km,Unpainted-Unchanging-Without Tramer
+Renault Clio 1.0 TCe Joy,850.053 TL,2022 km,41.000 km,Beyaz km,09 Kasým 2024 km,Rize Pazar km,Unpainted-Unchanging-Without Tramer
+Dacia Sandero 1.5 dCi Stepway,670.000 TL,2019 km,302.000 km,Beyaz km,07 Kasým 2024 km,Diyarbakýr Kayapýnar km,Unpainted-Unchanging-Without Tramer
+Hyundai i20 1.2 D-CVVT Jump,595.000 TL,2013 km,96.000 km,Beyaz km,07 Kasým 2024 km,Malatya Yeþilyurt km,Unpainted-Unchanging-Without Tramer
+Citroen C3 1.4 SX,385.000 TL,2005 km,123.000 km,Gri (Gümüþ) km,07 Kasým 2024 km,Malatya Yeþilyurt km,Unpainted-Unchanging-Without Tramer
+Volkswagen Bora 1.6 Pacific,470.000 TL,2005 km,209.000 km,Yeþil (metalik) km,07 Kasým 2024 km,Malatya Yeþilyurt km,Unpainted-Unchanging-Without Tramer
+Opel Corsa 1.5 CDTI Edition,785.000 TL,2020 km,112.000 km,Siyah km,07 Kasým 2024 km,Malatya Yeþilyurt km,Unpainted-Unchanging-Without Tramer
+Toyota Corolla 1.6 Advance,955.000 TL,2016 km,54.500 km,Kahverengi km,06 Kasým 2024 km,Ýstanbul Beyoðlu km,Unpainted-Unchanging-Without Tramer
+Mercedes - Benz C 200 AMG,3.150.000 TL,2022 km,28.000 km,Gri km,06 Kasým 2024 km,Ýstanbul Esenyurt km,Unpainted-Unchanging-Without Tramer
+Nissan Micra 1.2 Tekna,599.999 TL,2009 km,70.000 km,Siyah km,06 Kasým 2024 km,Ýstanbul Ataþehir km,Unpainted-Unchanging-Without Tramer
 Volkswagen Passat 1.6 TDi BlueMotion Business,1.585.000 TL,2019 km,96.500 km,Gri km,04 Kasým 2024 km,Denizli Merkezefendi km,Unpainted-Unchanging-Without Tramer
-Fiat Egea 1.6 Multijet Urban,955.000 TL,2022 km,45.000 km,Beyaz km,03 Kasým 2024 km,Ýstanbul Bahçelievler km,Unpainted-Unchanging-Without Tramer
-Skoda SuperB 1.6 TDI Premium,1.435.900 TL,2019 km,144.500 km,Gri (titanyum) km,03 Kasým 2024 km,Sakarya Serdivan km,Unpainted-Unchanging-Without Tramer
-Volkswagen Polo 1.0 TSi Life,1.195.000 TL,2023 km,12.300 km,Kýrmýzý km,02 Kasým 2024 km,Ýstanbul Þiþli km,Unpainted-Unchanging-Without Tramer
-BMW 3 Serisi 328i Standart,650.000 TL,1999 km,325.000 km,Gri km,02 Kasým 2024 km,Gaziantep Þahinbey km,Unpainted-Unchanging-Without Tramer
-Skoda Octavia 1.6 TDI Style,955.000 TL,2016 km,171.000 km,Beyaz km,02 Kasým 2024 km,Hatay Kýrýkhan km,Unpainted-Unchanging-Without Tramer
-Mercedes - Benz E 200 d,275.000 TL,1985 km,358.000 km,Mavi (metalik) km,02 Kasým 2024 km,Gaziantep Nizip km,Unpainted-Unchanging-Without Tramer
-Fiat Egea 1.6 E-Torq Urban Plus,845.000 TL,2019 km,42.641 km,Beyaz km,02 Kasým 2024 km,Kahramanmaraþ Onikiþubat km,Unpainted-Unchanging-Without Tramer
-BMW i Serisi i4 eDrive40 M Sport,3.245.000 TL,2024 km,- km,Lacivert km,01 Kasým 2024 km,Ýstanbul Ataþehir km,Unpainted-Unchanging-Without Tramer
-Mazda 626 2.0,365.000 TL,1998 km,426.000 km,Mavi km,01 Kasým 2024 km,Antalya Kepez km,Unpainted-Unchanging-Without Tramer
-Mercedes - Benz C 180 Exclusive,1.500.000 TL,2014 km,250.000 km,Siyah km,01 Kasým 2024 km,Kilis Merkez km,Unpainted-Unchanging-Without Tramer
-Chevrolet Aveo 1.4 LT,419.000 TL,2012 km,145.000 km,Gri km,01 Kasým 2024 km,Ýstanbul Baþakþehir km,Unpainted-Unchanging-Without Tramer
-Volkswagen Polo 1.4 TDi Comfortline,490.000 TL,2009 km,248.000 km,Beyaz km,01 Kasým 2024 km,Samsun Çarþamba km,Unpainted-Unchanging-Without Tramer
-BMW 3 Serisi 320i ED Modern Line,1.315.000 TL,2013 km,92.500 km,Beyaz km,31 Ekim 2024 km,Ýstanbul Baðcýlar km,Unpainted-Unchanging-Without Tramer
-Volkswagen Bora 1.6 Pacific,615.000 TL,2005 km,107.000 km,Mavi (metalik) km,31 Ekim 2024 km,Bursa Osmangazi km,Unpainted-Unchanging-Without Tramer
-BMW 7 Serisi 725d Long Pure Excellence,4.650.000 TL,2017 km,171.000 km,Gri km,31 Ekim 2024 km,Ankara Çankaya km,Unpainted-Unchanging-Without Tramer
-Renault R 9 1.4 Broadway GTE,215.000 TL,1991 km,300.000 km,Füme km,30 Ekim 2024 km,Çanakkale Çan km,Unpainted-Unchanging-Without Tramer
-Toyota Corolla 1.5 Vision,1.280.000 TL,2023 km,10.000 km,Beyaz km,29 Ekim 2024 km,Kocaeli Gölcük km,Unpainted-Unchanging-Without Tramer
-Dacia Sandero 1.5 dCi Stepway,747.000 TL,2016 km,89.000 km,Kýrmýzý km,29 Ekim 2024 km,Nevþehir Merkez km,Unpainted-Unchanging-Without Tramer
-BMW 5 Serisi 520i M Sport,3.150.000 TL,2021 km,51.500 km,Mavi (metalik) km,29 Ekim 2024 km,Hatay Arsuz km,Unpainted-Unchanging-Without Tramer
 Renault Megane 1.5 Blue DCI Icon,1.167.000 TL,2020 km,124.000 km,Beyaz km,24 Ekim 2024 km,Konya Karatay km,Unpainted-Unchanging-Without Tramer
-Fiat Tipo 1.6 SLX,264.500 TL,1999 km,250.000 km,Kýrmýzý km,22 Ekim 2024 km,Ankara Keçiören km,Unpainted-Unchanging-Without Tramer
-Hyundai i20 1.4 MPI Elite,1.020.900 TL,2021 km,54.000 km,Bordo km,21 Ekim 2024 km,Konya Karatay km,Unpainted-Unchanging-Without Tramer
-Audi A1 1.6 TDI Attraction,720.000 TL,2011 km,234.500 km,Kýrmýzý km,18 Ekim 2024 km,Tekirdað Çorlu km,Unpainted-Unchanging-Without Tramer
-Honda Civic 1.6 i-DTEC Elegance,1.150.000 TL,2018 km,67.000 km,Gri (metalik) km,16 Ekim 2024 km,Ýstanbul Avcýlar km,Unpainted-Unchanging-Without Tramer

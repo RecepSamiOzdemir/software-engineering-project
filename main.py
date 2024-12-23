@@ -16,30 +16,33 @@ all_cars = []
 url_dic = {
 
     "Badly damaged": [
-        "https://www.arabam.com/ikinci-el/otomobil?damagestatus=A%C4%9F%C4%B1r%20Hasarl%C4%B1&take=50&page=",
-        "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=A%C4%9F%C4%B1r+Hasarl%C4%B1&take=50&page=",
-        "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=A%C4%9F%C4%B1r+Hasarl%C4%B1&take=50&page="],
+        "https://www.arabam.com/ikinci-el/otomobil?damagestatus=A%C4%9F%C4%B1r%20Hasarl%C4%B1&sort=startedAt.desc"
+        "&take=50&page=",
+        "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=A%C4%9F%C4%B1r+Hasarl%C4%B1&sort=startedAt.desc&take=50&page=",
+        "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=A%C4%9F%C4%B1r+Hasarl%C4%B1&sort=startedAt.desc&take=50&page="],
 
-    "Unchanging": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=De%C4%9Fi%C5%9Fensiz&take=50&page=",
-                   "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=De%C4%9Fi%C5%9Fensiz&take=50"
+
+
+    "Unchanging": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=De%C4%9Fi%C5%9Fensiz&sort=startedAt.desc&take=50&page=",
+                   "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=De%C4%9Fi%C5%9Fensiz&sort=startedAt.desc&take=50"
                    "&page=",
-                   "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=De%C4%9Fi%C5%9Fensiz&take=50&page="],
+                   "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=De%C4%9Fi%C5%9Fensiz&sort=startedAt.desc&take=50&page="],
 
-    "Without Tramer": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=Tramersiz&take=50&page=",
-                       "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Tramersiz&take=50&page=",
-                       "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Tramersiz&take=50&page="],
+    "Without Tramer": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=Tramersiz&sort=startedAt.desc&take=50&page=",
+                       "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Tramersiz&sort=startedAt.desc&take=50&page=",
+                       "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Tramersiz&sort=startedAt.desc&take=50&page="],
 
-    "Unpainted": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=Boyas%C4%B1z&take=50&page=",
-                  "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Boyas%C4%B1z&take=50&page=",
-                  "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Boyas%C4%B1z&take=50&page="
+    "Unpainted": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=Boyas%C4%B1z&sort=startedAt.desc&take=50&page=",
+                  "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Boyas%C4%B1z&sort=startedAt.desc&take=50&page=",
+                  "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Boyas%C4%B1z&sort=startedAt.desc&take=50&page="
                   ],
 
     "Unpainted-Unchanging": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=Boyas%C4%B1z+ve+De%C4%9Fi%C5"
-                             "%9Fensiz&take=50&page=",
+                             "%9Fensiz&sort=startedAt.desc&take=50&page=",
                              "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Boyas%C4%B1z+ve+De%C4"
-                             "%9Fi%C5%9Fensiz&take=50&page=",
+                             "%9Fi%C5%9Fensiz&sort=startedAt.desc&take=50&page=",
                              "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Boyas%C4%B1z+ve+De%C4"
-                             "%9Fi%C5%9Fensiz&take=50&page="],
+                             "%9Fi%C5%9Fensiz&sort=startedAt.desc&take=50&page="],
 
     "Unpainted-Unchanging-Without Tramer": [
         "https://www.arabam.com/ikinci-el/otomobil?damagestatus=Boyas%C4%B1z,"
