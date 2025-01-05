@@ -1,10 +1,11 @@
 import requests
+import threading
 from bs4 import BeautifulSoup
 import pandas as pd
 import utlis
 import shutil
 
-def scrape_and_save():
+def scrape_and_save(stop_event):
 
     headers = {
         'Referer': 'https://itunes.apple.com',
@@ -60,6 +61,10 @@ def scrape_and_save():
         for url in url_dic[key]:
             for page in range(1, 51):
 
+                if stop_event.is_set():  # Stop işareti kontrol ediliyor
+                    print("Scrape işlemi durduruldu.")
+                    return  # Döngüden çık ve işlemi durdur.
+                 
                 print(f'{url}{page}')
                 try:
                     response = requests.get(f'{url}{page}',

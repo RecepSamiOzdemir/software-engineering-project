@@ -4,41 +4,70 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from main import scrape_and_save
 from PyQt5.QtCore import QThread, pyqtSignal
+import threading
+
 
 class FetchDataWorker(QThread):
     log_signal = pyqtSignal(str)
-    finished_signal = pyqtSignal(str)
+    finished_signal = pyqtSignal(str, int)  # Yeni veri sayısını eklemek için değişiklik
+
+    def __init__(self, stop_event, parent=None):
+        super().__init__(parent)
+        self.stop_event = stop_event
+        self.initial_data_count = 0  # Başlangıçtaki veri sayısı
 
     def run(self):
         try:
-            # Veri çekme işlemini burada yapıyoruz
-            self.log_signal.emit("Veri çekme işlemi başladı...\n")
-            data_file = scrape_and_save()  # scrape_and_save fonksiyonunu çağırıyoruz
-            self.log_signal.emit(f"Veri çekme işlemi tamamlandı: {data_file}")
-            self.finished_signal.emit("Veri çekme işlemi başarıyla tamamlandı.")
+            # Başlangıçtaki veri sayısını al
+            try:
+                df = pd.read_csv("data.csv")
+                self.initial_data_count = len(df)
+            except FileNotFoundError:
+                self.initial_data_count = 0
+
+            self.log_signal.emit("Veri çekme işlemi başladı...")
+            scrape_and_save(self.stop_event)  # Veri çekme fonksiyonunu çağır
+
+            # Çekilen yeni veri dosyasını yükle
+            df = pd.read_csv("data.csv")
+            total_data_count = len(df)
+            new_data_count = total_data_count - self.initial_data_count  # Yeni veri sayısını hesapla
+
+            self.log_signal.emit("Veri çekme işlemi tamamlandı.")
+            self.finished_signal.emit("success", new_data_count)  # Yeni veri sayısını ilet
         except Exception as e:
             self.log_signal.emit(f"Hata: {str(e)}")
-            self.finished_signal.emit("Veri çekme işlemi başarısız oldu.")
+            self.finished_signal.emit("failure", 0)  # Hata durumunda sıfır veri
+
 
 class FetchDataDialog(QDialog):
-    def __init__(self):
+    def __init__(self, stop_event):
         super().__init__()
         self.setWindowTitle("Veri Çekme İşlemi")
         self.setGeometry(200, 200, 600, 400)
+
+        self.stop_event = stop_event
 
         layout = QVBoxLayout()
         self.log_text = QTextEdit()
         self.log_text.setReadOnly(True)
         layout.addWidget(self.log_text)
 
-        self.close_button = QPushButton("Kapat")
+        button_layout = QHBoxLayout()
+
+        self.stop_button = QPushButton("Stop")
+        self.stop_button.clicked.connect(self.stop_fetching)
+        button_layout.addWidget(self.stop_button)
+
+        self.close_button = QPushButton("Close")
         self.close_button.setEnabled(False)
         self.close_button.clicked.connect(self.close)
-        layout.addWidget(self.close_button)
+        button_layout.addWidget(self.close_button)
 
+        layout.addLayout(button_layout)
         self.setLayout(layout)
 
-        self.worker = FetchDataWorker()
+        self.worker = FetchDataWorker(stop_event)
         self.worker.log_signal.connect(self.update_log)
         self.worker.finished_signal.connect(self.on_finished)
         self.worker.start()
@@ -46,9 +75,41 @@ class FetchDataDialog(QDialog):
     def update_log(self, message):
         self.log_text.append(message)
 
-    def on_finished(self, message):
-        self.update_log(message)
+    def on_finished(self, message, new_data_count):
+        if message == "success":
+            self.update_log(f"Veri çekme işlemi başarıyla tamamlandı. Yeni eklenen veri sayısı: {new_data_count}.")
+        else:
+            self.update_log("Veri çekme işlemi sırasında bir hata oluştu.")
         self.close_button.setEnabled(True)
+        self.stop_button.setEnabled(False)
+
+    def stop_fetching(self):
+        self.update_log("Veri çekme işlemi durduruluyor...")
+        self.stop_event.set()  # stop_event'i tetikle
+        self.stop_button.setEnabled(False)
+
+
+class CarDataViewer(QWidget):
+    def __init__(self):
+        super().__init__()
+
+        self.data = load_data()
+        self.filtered_data = self.data
+
+        self.init_ui()
+
+    def fetch_data(self):
+        stop_event = threading.Event()
+        dialog = FetchDataDialog(stop_event)
+        dialog.exec_()
+
+        # Veri çekme işlemi sonrası veriyi yükle ve tabloyu güncelle
+        self.data = load_data()
+        self.filtered_data = self.data
+        update_table(self.data, self.table_widget)
+
+
+
 
 
 def load_data():
@@ -108,7 +169,7 @@ def clear_filters(table_widget, *inputs):
         elif isinstance(input_widget, QComboBox):
             input_widget.setCurrentIndex(0)
 
-    update_table(data, table_widget)
+    update_table(viewer.data, table_widget)
 
 def plot_valuation_trends(filtered_df, group_by_attribute):
     # Filtrelenmiş verilerle değer trendlerini çizme
@@ -265,8 +326,9 @@ class CarDataViewer(QWidget):
             plot_valuation_trends(self.filtered_data, attribute)
 
     def fetch_data(self):
-        dialog = FetchDataDialog()
-        dialog.exec_()  # Dialogu modal olarak açıyoruz
+        stop_event = threading.Event()
+        dialog = FetchDataDialog(stop_event)
+        dialog.exec_()
 
         # Veri çekme işlemi sonrası veriyi yükle ve tabloyu güncelle
         self.data = load_data()
@@ -285,4 +347,4 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     viewer = CarDataViewer()
     viewer.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec_()) 
