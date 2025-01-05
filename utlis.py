@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 
-
 def arrange_df(df):
     cars = df
     cars = cars.drop_duplicates()
@@ -35,5 +34,8 @@ def arrange_df(df):
     cars_new = cars_new.drop_duplicates()
     cars_new = cars_new.dropna()
     return cars_new
+
+
+
 
 

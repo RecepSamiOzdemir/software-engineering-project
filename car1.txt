@@ -1,81 +1,598 @@
-Renault Clio 1.5 dCi Touch,638.000 TL,2017 km,125.000 km,Beyaz km,02 Aralýk 2024 km,Ýstanbul Pendik km,Unpainted-Unchanging-Without Tramer
-BMW 1 Serisi 118i First Edition M Sport,1.749.000 TL,2019 km,16.000 km,Kýrmýzý km,02 Aralýk 2024 km,Bursa Nilüfer km,Unpainted-Unchanging-Without Tramer
-Peugeot 508 1.5 BlueHDI Allure,1.649.900 TL,2022 km,35.000 km,Gri km,02 Aralýk 2024 km,Ankara Yenimahalle km,Unpainted-Unchanging-Without Tramer
-Volkswagen Polo 1.0 TSi Life,980.000 TL,2021 km,144.000 km,Bej km,02 Aralýk 2024 km,Ýstanbul Avcýlar km,Unpainted-Unchanging-Without Tramer
-Hyundai Accent Era 1.5 CRDi-VGT Start,525.000 TL,2012 km,215.200 km,Gri (Gümüþ) km,02 Aralýk 2024 km,Ankara Altýndað km,Unpainted-Unchanging-Without Tramer
-Citroen C4 1.6 HDi Confort,455.000 TL,2012 km,384.000 km,Beyaz km,02 Aralýk 2024 km,Ýstanbul Baðcýlar km,Unpainted-Unchanging-Without Tramer
-BMW 5 Serisi 520d M Sport,1.475.000 TL,2012 km,330.000 km,Füme km,01 Aralýk 2024 km,Sakarya Adapazarý km,Unpainted-Unchanging-Without Tramer
-Honda Civic 1.4 i S,580.000 TL,1999 km,246.000 km,Gri km,01 Aralýk 2024 km,Sakarya Adapazarý km,Unpainted-Unchanging-Without Tramer
-Fiat Egea 1.6 Multijet Easy,949.900 TL,2022 km,45.000 km,Beyaz km,30 Kasým 2024 km,Ankara Akyurt km,Unpainted-Unchanging-Without Tramer
-Fiat Egea 1.6 Multijet Easy,965.900 TL,2023 km,23.000 km,Beyaz km,30 Kasým 2024 km,Ankara Akyurt km,Unpainted-Unchanging-Without Tramer
-Opel Vectra 1.9 CDTI Elegance,420.000 TL,2007 km,322.000 km,Siyah km,30 Kasým 2024 km,Ýzmir Buca km,Unpainted-Unchanging-Without Tramer
-Skoda Fabia 1.0 GreenTec Ambition,657.500 TL,2015 km,59.500 km,Kýrmýzý km,30 Kasým 2024 km,Ýstanbul Küçükçekmece km,Unpainted-Unchanging-Without Tramer
-Chevrolet Aveo 1.4 LS,449.900 TL,2011 km,119.000 km,Beyaz km,30 Kasým 2024 km,Bursa Osmangazi km,Unpainted-Unchanging-Without Tramer
-Hyundai i20 1.4 MPI Style,1.019.900 TL,2023 km,26.500 km,Beyaz km,30 Kasým 2024 km,Kocaeli Darýca km,Unpainted-Unchanging-Without Tramer
-Ford Focus 1.5 TDCi Titanium,1.320.000 TL,2020 km,97.600 km,Gri km,30 Kasým 2024 km,Hatay Dörtyol km,Unpainted-Unchanging-Without Tramer
-Renault Talisman 1.6 dCi Touch,1.039.000 TL,2016 km,160.000 km,Kahverengi km,30 Kasým 2024 km,Konya Selçuklu km,Unpainted-Unchanging-Without Tramer
-Fiat Linea 1.3 Multijet Pop,548.000 TL,2016 km,275.000 km,Beyaz km,30 Kasým 2024 km,Giresun Görele km,Unpainted-Unchanging-Without Tramer
-Fiat Egea 1.4 Fire Easy,760.000 TL,2023 km,18.000 km,Gri km,30 Kasým 2024 km,Konya Ereðli km,Unpainted-Unchanging-Without Tramer
-BMW 3 Serisi 320d Standart,1.170.000 TL,2013 km,248.000 km,Siyah km,30 Kasým 2024 km,Karabük Merkez km,Unpainted-Unchanging-Without Tramer
-Citroen C4 1.2 PureTech Shine Bold,1.495.000 TL,2023 km,23.000 km,Gri km,29 Kasým 2024 km,Ýstanbul Esenyurt km,Unpainted-Unchanging-Without Tramer
-Fiat Egea 1.4 Fire Easy Plus,779.500 TL,2023 km,15.000 km,Beyaz km,29 Kasým 2024 km,Konya Selçuklu km,Unpainted-Unchanging-Without Tramer
-Fiat 500 Ailesi 500L 1.4 Fire Cross Plus,850.000 TL,2021 km,9.850 km,Beyaz km,29 Kasým 2024 km,Hatay Antakya km,Unpainted-Unchanging-Without Tramer
-Kia Rio 1.4 CRDi Concept,580.000 TL,2015 km,189.500 km,Beyaz km,29 Kasým 2024 km,Antalya Serik km,Unpainted-Unchanging-Without Tramer
-BMW 1 Serisi 116i Comfort,1.050.000 TL,2014 km,87.000 km,Beyaz km,28 Kasým 2024 km,Bursa Ýnegöl km,Unpainted-Unchanging-Without Tramer
-Peugeot 307 1.6 XT,415.750 TL,2001 km,164.000 km,Mavi km,28 Kasým 2024 km,Ankara Beypazarý km,Unpainted-Unchanging-Without Tramer
-Renault Megane E-Tech Iconic,1.650.000 TL,2023 km,- km,Beyaz km,28 Kasým 2024 km,Ýzmir Buca km,Unpainted-Unchanging-Without Tramer
-Volkswagen Passat 1.5 TSi Business,1.499.999 TL,2020 km,84.500 km,Gri km,27 Kasým 2024 km,Ýstanbul Kartal km,Unpainted-Unchanging-Without Tramer
-Mazda 626 2.0,269.900 TL,1994 km,355.000 km,Beyaz km,27 Kasým 2024 km,Ýstanbul Büyükçekmece km,Unpainted-Unchanging-Without Tramer
-Toyota Corolla 1.5 Dream,1.125.500 TL,2021 km,92.000 km,Gri (titanyum) km,27 Kasým 2024 km,Ankara Polatlý km,Unpainted-Unchanging-Without Tramer
-Citroen C-Elysee 1.5 BlueHDi Shine,730.750 TL,2021 km,51.000 km,Gri (titanyum) km,27 Kasým 2024 km,Ankara Mamak km,Unpainted-Unchanging-Without Tramer
-Citroen C3 1.2 PureTech Shine,879.999 TL,2019 km,115.000 km,Beyaz km,27 Kasým 2024 km,Kayseri Melikgazi km,Unpainted-Unchanging-Without Tramer
-Audi A3 Sportback 35 TFSI Dynamic,1.900.000 TL,2022 km,22.000 km,Beyaz km,27 Kasým 2024 km,Ankara Keçiören km,Unpainted-Unchanging-Without Tramer
-Volkswagen Passat 1.6 TDi BlueMotion Business,1.775.000 TL,2019 km,77.000 km,Beyaz km,27 Kasým 2024 km,Ankara Keçiören km,Unpainted-Unchanging-Without Tramer
-Renault Taliant 1.0 Tce Joy,965.000 TL,2023 km,10.000 km,Beyaz km,27 Kasým 2024 km,Trabzon Ortahisar km,Unpainted-Unchanging-Without Tramer
-Nissan Micra 1.2 Match,460.000 TL,2018 km,20.000 km,Gri (Gümüþ) km,27 Kasým 2024 km,Ýstanbul Ataþehir km,Unpainted-Unchanging-Without Tramer
-BMW 5 Serisi 525d xDrive Premium,1.349.000 TL,2012 km,262.000 km,Beyaz km,27 Kasým 2024 km,Mersin Yeniþehir km,Unpainted-Unchanging-Without Tramer
-Ford Focus 1.6 Ti-VCT Trend X,875.000 TL,2017 km,145.000 km,Gri (Gümüþ) km,26 Kasým 2024 km,Kahramanmaraþ Onikiþubat km,Unpainted-Unchanging-Without Tramer
-Volkswagen Golf 1.9 TDi,550.000 TL,2007 km,255.000 km,Siyah km,26 Kasým 2024 km,Bursa Mustafakemalpaþa km,Unpainted-Unchanging-Without Tramer
-Opel Meriva 1.6 Enjoy,350.000 TL,2004 km,203.000 km,Lacivert km,26 Kasým 2024 km,Sakarya Karasu km,Unpainted-Unchanging-Without Tramer
-Ford Focus 1.5 TDCi Titanium,1.040.000 TL,2020 km,180.000 km,Beyaz km,26 Kasým 2024 km,Gaziantep Þehitkamil km,Unpainted-Unchanging-Without Tramer
-Mercedes - Benz C 180 Kompressor BlueEfficiency Avantgarde,1.155.000 TL,2011 km,170.000 km,Beyaz km,26 Kasým 2024 km,Ýstanbul Kadýköy km,Unpainted-Unchanging-Without Tramer
-Tofaþ Þahin 1.6 ie,397.000 TL,2001 km,112.000 km,Beyaz km,26 Kasým 2024 km,Tekirdað Çorlu km,Unpainted-Unchanging-Without Tramer
-Honda Civic 1.6 i-VTEC ECO Elegance,1.250.000 TL,2019 km,68.000 km,Gri (metalik) km,26 Kasým 2024 km,Muðla Ortaca km,Unpainted-Unchanging-Without Tramer
-Audi A5 Cabrio 45 TFSI Quattro Advanced,3.875.000 TL,2022 km,22.567 km,Gri (metalik) km,26 Kasým 2024 km,Ýzmir Gaziemir km,Unpainted-Unchanging-Without Tramer
-Volkswagen Polo 1.4 Comfortline,585.000 TL,2006 km,110.000 km,Gri (metalik) km,26 Kasým 2024 km,Osmaniye Merkez km,Unpainted-Unchanging-Without Tramer
-Dacia Lodgy 1.5 BlueDCI Stepway,855.000 TL,2020 km,183.000 km,Beyaz km,26 Kasým 2024 km,Kocaeli Körfez km,Unpainted-Unchanging-Without Tramer
-Fiat Egea 1.3 Multijet Easy,684.900 TL,2020 km,137.000 km,Beyaz km,25 Kasým 2024 km,Aksaray Merkez km,Unpainted-Unchanging-Without Tramer
-Volkswagen Golf 1.6 TDi BlueMotion Highline,925.000 TL,2016 km,175.000 km,Siyah km,25 Kasým 2024 km,Antalya Kumluca km,Unpainted-Unchanging-Without Tramer
-Toyota Corolla 1.8 Hybrid Passion X-Pack,1.399.900 TL,2021 km,72.000 km,Mavi km,25 Kasým 2024 km,Ankara Yenimahalle km,Unpainted-Unchanging-Without Tramer
-BMW 4 Serisi 420i Gran Coupe M Sport,4.075.000 TL,2024 km,13.069 km,Siyah km,25 Kasým 2024 km,Ýzmir Gaziemir km,Unpainted-Unchanging-Without Tramer
-Dacia Sandero 0.9 TCe Stepway,715.000 TL,2019 km,61.000 km,Kahverengi km,24 Kasým 2024 km,Kocaeli Ýzmit km,Unpainted-Unchanging-Without Tramer
-Mercedes - Benz CLA 180 D AMG,1.600.000 TL,2017 km,187.000 km,Beyaz km,24 Kasým 2024 km,Muðla Fethiye km,Unpainted-Unchanging-Without Tramer
-Volkswagen Golf 1.0 eTSI Life,1.500.000 TL,2022 km,30.000 km,Kýrmýzý km,24 Kasým 2024 km,Ankara Kahramankazan km,Unpainted-Unchanging-Without Tramer
-Fiat Egea 1.4 Fire Easy,650.000 TL,2019 km,90.000 km,Gri km,24 Kasým 2024 km,Kocaeli Darýca km,Unpainted-Unchanging-Without Tramer
-BMW 3 Serisi 320i,550.000 TL,1994 km,260.000 km,Siyah km,24 Kasým 2024 km,Kayseri Kocasinan km,Unpainted-Unchanging-Without Tramer
-Volkswagen Passat 1.4 TSi BlueMotion Trendline,1.120.000 TL,2016 km,95.000 km,Beyaz km,24 Kasým 2024 km,Kütahya Merkez km,Unpainted-Unchanging-Without Tramer
-Volkswagen Passat 1.6 TDi BlueMotion Comfortline,999.000 TL,2015 km,260.000 km,Mavi km,24 Kasým 2024 km,Gaziantep Þahinbey km,Unpainted-Unchanging-Without Tramer
-Seat Exeo 1.6 Style,560.000 TL,2010 km,123.456 km,Beyaz km,24 Kasým 2024 km,Denizli Pamukkale km,Unpainted-Unchanging-Without Tramer
-BMW 3 Serisi 320i ED M Plus,1.585.000 TL,2015 km,129.000 km,Mavi km,23 Kasým 2024 km,Bolu Merkez km,Unpainted-Unchanging-Without Tramer
-BMW 4 Serisi 418i Gran Coupe Sport Line,1.725.000 TL,2018 km,84.000 km,Beyaz km,23 Kasým 2024 km,Gaziantep Þahinbey km,Unpainted-Unchanging-Without Tramer
-BMW 3 Serisi 320i Premium,864.850 TL,2009 km,214.000 km,Gri km,23 Kasým 2024 km,Konya Seydiþehir km,Unpainted-Unchanging-Without Tramer
-Skoda SuperB 1.5 TSI Premium,1.449.500 TL,2020 km,109.650 km,Mavi (metalik) km,23 Kasým 2024 km,Konya Karatay km,Unpainted-Unchanging-Without Tramer
-BMW 2 Serisi 216d Gran Coupe Sport Line,1.995.000 TL,2022 km,25.000 km,Beyaz km,22 Kasým 2024 km,Ýzmir Gaziemir km,Unpainted-Unchanging-Without Tramer
-Renault Symbol 1.5 dCi Joy,640.000 TL,2018 km,180.000 km,Beyaz km,22 Kasým 2024 km,Þanlýurfa Haliliye km,Unpainted-Unchanging-Without Tramer
-Mercedes - Benz E 220 D Exclusive,3.099.000 TL,2018 km,199.000 km,Siyah km,21 Kasým 2024 km,Aydýn Didim km,Unpainted-Unchanging-Without Tramer
-Fiat Tempra 1.6 SX,210.000 TL,1996 km,107.000 km,Mavi km,21 Kasým 2024 km,Gaziantep Þehitkamil km,Unpainted-Unchanging-Without Tramer
-Dacia Logan 1.2,505.000 TL,2015 km,236.050 km,Beyaz km,20 Kasým 2024 km,Ordu Ünye km,Unpainted-Unchanging-Without Tramer
-BMW 2 Serisi 216d Gran Coupe Sport Line,1.785.000 TL,2021 km,86.000 km,Beyaz km,20 Kasým 2024 km,Ýstanbul Küçükçekmece km,Unpainted-Unchanging-Without Tramer
-Citroen AMÝ My Ami Pop,360.000 TL,2023 km,- km,Yeþil km,20 Kasým 2024 km,Ýstanbul Baðcýlar km,Unpainted-Unchanging-Without Tramer
-Kia Cerato 1.6 CRDi Concept Plus,935.000 TL,2016 km,147.777 km,Beyaz km,20 Kasým 2024 km,Antalya Muratpaþa km,Unpainted-Unchanging-Without Tramer
-Mercedes - Benz E 220 CDI BlueEFFICIENCY,1.265.000 TL,2011 km,181.000 km,Gri km,20 Kasým 2024 km,Ýstanbul Kartal km,Unpainted-Unchanging-Without Tramer
-Ford Mondeo 1.6 TDCi Style,985.000 TL,2017 km,73.000 km,Füme km,20 Kasým 2024 km,Ýstanbul Esenyurt km,Unpainted-Unchanging-Without Tramer
-Citroen C3 1.2 PureTech Feel,743.000 TL,2023 km,17.000 km,Gri (metalik) km,19 Kasým 2024 km,Samsun Ýlkadým km,Unpainted-Unchanging-Without Tramer
-Volkswagen Passat 1.5 TSi Elegance,2.350.000 TL,2022 km,29.500 km,Mavi km,18 Kasým 2024 km,Ýzmir Gaziemir km,Unpainted-Unchanging-Without Tramer
-BMW 5 Serisi 530i xDrive Luxury Line,3.750.000 TL,2021 km,95.000 km,Siyah km,18 Kasým 2024 km,Ýzmir Gaziemir km,Unpainted-Unchanging-Without Tramer
-Fiat Egea 1.3 Multijet Easy,665.000 TL,2020 km,144.000 km,Beyaz km,18 Kasým 2024 km,Konya Beyþehir km,Unpainted-Unchanging-Without Tramer
-Renault Megane 1.5 dCi Touch,795.000 TL,2017 km,235.000 km,Siyah km,18 Kasým 2024 km,Mardin Nusaybin km,Unpainted-Unchanging-Without Tramer
-Volkswagen Passat 2.0 TDi BlueMotion Elegance,3.200.000 TL,2020 km,40.000 km,Beyaz km,17 Kasým 2024 km,Van Tuþba km,Unpainted-Unchanging-Without Tramer
-Dacia Lodgy 1.5 dCi Allroad,530.000 TL,2014 km,252.000 km,Beyaz km,16 Kasým 2024 km,Ýstanbul Beylikdüzü km,Unpainted-Unchanging-Without Tramer
-BMW 2 Serisi 216d Active Tourer Sport Line,1.150.000 TL,2016 km,127.000 km,Beyaz km,15 Kasým 2024 km,Ýzmir Gaziemir km,Unpainted-Unchanging-Without Tramer
-Tofaþ Doðan SLX,179.000 TL,1999 km,99.000 km,Füme km,10 Kasým 2024 km,Ýzmir Gaziemir km,Unpainted-Unchanging-Without Tramer
+Seat Cordoba 1.4 Stylance,270.000 TL,2005 km,241.000 km,Siyah km,03 Ocak 2025 km,Malatya Yeþilyurt km,Badly damaged
+BMW 1 Serisi 118i Premium,530.000 TL,2007 km,232.000 km,Gri (titanyum) km,03 Ocak 2025 km,Isparta Merkez km,Badly damaged
+Hyundai Accent Era 1.4 Mode,395.000 TL,2012 km,112.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Isparta Merkez km,Badly damaged
+Kia Ceed 1.6 CRDi Concept,512.000 TL,2013 km,229.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Pendik km,Badly damaged
+Renault Megane 1.6 Joy,485.000 TL,2013 km,209.000 km,Beyaz km,03 Ocak 2025 km,Kocaeli Ýzmit km,Badly damaged
+Peugeot 308 1.6 VTi Comfort,570.000 TL,2010 km,125.000 km,Gri km,03 Ocak 2025 km,Ýstanbul Tuzla km,Badly damaged
+Ford Fiesta 1.5 TDCi Trend X,499.000 TL,2014 km,111.000 km,Gri km,03 Ocak 2025 km,Mersin Toroslar km,Badly damaged
+Citroen C5 1.6 THP Exclusive,550.000 TL,2011 km,249.000 km,Siyah km,03 Ocak 2025 km,Samsun Ýlkadým km,Badly damaged
+Volkswagen Polo 1.4 TDi Comfortline,655.000 TL,2014 km,96.002 km,Siyah km,03 Ocak 2025 km,Ýstanbul Avcýlar km,Badly damaged
+Volkswagen Golf 1.6 TDi BlueMotion,650.000 TL,2015 km,169.000 km,Beyaz km,03 Ocak 2025 km,Gaziantep Þahinbey km,Badly damaged
+Renault Clio 1.0 TCe Touch,665.000 TL,2023 km,70.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Beykoz km,Badly damaged
+Volkswagen Jetta 1.4 TSi Comfortline,655.000 TL,2012 km,103.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Sultanbeyli km,Badly damaged
+Seat Leon 1.2 TSI Style,480.000 TL,2011 km,172.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Silivri km,Badly damaged
+Peugeot 308 1.6 HDi Active,490.000 TL,2013 km,167.000 km,Siyah km,03 Ocak 2025 km,Hatay Reyhanlý km,Badly damaged
+Renault Fluence 1.5 dCi Touch,450.000 TL,2012 km,240.000 km,Gri km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Badly damaged
+Ford Focus 1.5 Ti-VCT Trend X,820.000 TL,2020 km,69.800 km,Beyaz km,03 Ocak 2025 km,Adana Seyhan km,Badly damaged
+Opel Insignia 1.6 T Edition Elegance,640.000 TL,2011 km,101.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Esenyurt km,Badly damaged
+Hyundai Accent Blue 1.6 CRDI Mode Plus,600.000 TL,2015 km,170.000 km,Gri km,03 Ocak 2025 km,Kars Merkez km,Badly damaged
+Citroen C5 1.6 HDi SX PK,550.000 TL,2011 km,184.000 km,Beyaz km,03 Ocak 2025 km,Mardin Artuklu km,Badly damaged
+Peugeot 208 1.4 HDi Active,600.000 TL,2015 km,115.500 km,Beyaz km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Badly damaged
+Volkswagen Golf 1.4 TSi Comfortline,560.000 TL,2012 km,118.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Küçükçekmece km,Badly damaged
+Ford Focus 1.5 TDCi Trend X,650.000 TL,2017 km,258.000 km,Beyaz km,03 Ocak 2025 km,Hatay Kýrýkhan km,Badly damaged
+Seat Leon 1.4 TSI Style,412.500 TL,2010 km,219.000 km,Beyaz km,03 Ocak 2025 km,Adana Çukurova km,Badly damaged
+Volkswagen Jetta 1.6 Primeline,525.000 TL,2007 km,159.000 km,Gri km,03 Ocak 2025 km,Denizli Pamukkale km,Badly damaged
+Volkswagen Jetta 1.4 TSi Comfortline,620.000 TL,2014 km,205.000 km,Beyaz km,03 Ocak 2025 km,Ankara Çankaya km,Badly damaged
+Volkswagen Jetta 1.2 TSi Trendline,675.000 TL,2013 km,178.000 km,Beyaz km,03 Ocak 2025 km,Ýzmir Güzelbahçe km,Badly damaged
+Citroen C-Elysee 1.6 HDi Confort,450.000 TL,2017 km,201.500 km,Beyaz km,03 Ocak 2025 km,Mardin Artuklu km,Badly damaged
+Opel Astra 1.6 Enjoy Elegance,485.000 TL,2011 km,68.100 km,Füme km,03 Ocak 2025 km,Gaziantep Þahinbey km,Badly damaged
+Fiat Egea 1.3 Multijet Street,525.000 TL,2020 km,126.000 km,Beyaz km,03 Ocak 2025 km,Van Ýpekyolu km,Badly damaged
+Ford Fiesta 1.5 TDCi Trend,399.999 TL,2013 km,260.000 km,Gri (metalik) km,03 Ocak 2025 km,Hatay Samandað km,Badly damaged
+Skoda Rapid 1.6 TDI Elegance,595.000 TL,2014 km,159.000 km,Kýrmýzý km,03 Ocak 2025 km,Ýstanbul Baðcýlar km,Badly damaged
+Peugeot 207 1.4 HDi Urban Move,415.000 TL,2012 km,209.000 km,Beyaz km,03 Ocak 2025 km,Hatay Antakya km,Badly damaged
+Hyundai i20 1.4 CVVT Jump,465.000 TL,2012 km,206.471 km,Gri (Gümüþ) km,03 Ocak 2025 km,Hatay Antakya km,Badly damaged
+Volkswagen Jetta 1.6 Midline,480.000 TL,2009 km,240.000 km,Gri (metalik) km,03 Ocak 2025 km,Bitlis Tatvan km,Badly damaged
+Opel Astra 1.3 CDTI Enjoy,410.000 TL,2010 km,280.000 km,Gri km,03 Ocak 2025 km,Mersin Toroslar km,Badly damaged
+Volkswagen Jetta 1.6 TDi Comfortline,720.000 TL,2014 km,231.500 km,Füme km,03 Ocak 2025 km,Hatay Antakya km,Badly damaged
+Toyota Corolla 1.4 D-4D Comfort,385.000 TL,2010 km,211.000 km,Beyaz km,03 Ocak 2025 km,Adana Sarýçam km,Badly damaged
+Toyota Auris 1.33 Comfort,425.000 TL,2011 km,275.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Elazýð Merkez km,Badly damaged
+Peugeot 301 1.6 HDi Active,420.000 TL,2016 km,330.000 km,Gri km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Badly damaged
+Peugeot 208 1.2 PureTech Prime,875.000 TL,2021 km,29.500 km,Kýrmýzý km,03 Ocak 2025 km,Ýstanbul Eyüpsultan km,Badly damaged
+Peugeot 307 1.6 HDi Comfort,335.000 TL,2006 km,300.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Kastamonu Merkez km,Badly damaged
+Renault Symbol 1.5 dCi Joy,450.000 TL,2017 km,199.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Beylikdüzü km,Badly damaged
+Opel Corsa 1.4 Twinport Enjoy,430.000 TL,2009 km,191.300 km,Siyah km,03 Ocak 2025 km,Kocaeli Gebze km,Badly damaged
+Hyundai Accent 1.6 Admire,325.000 TL,2005 km,196.000 km,Beyaz km,03 Ocak 2025 km,Gaziantep Þahinbey km,Badly damaged
+Peugeot 508 1.6 e-HDi Active,645.000 TL,2014 km,183.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Ataþehir km,Badly damaged
+Renault Fluence 1.5 dCi Joy,455.000 TL,2014 km,270.000 km,Beyaz km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Badly damaged
+Skoda Fabia 1.2 Elegance,430.000 TL,2013 km,135.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Beylikdüzü km,Badly damaged
+Peugeot 307 1.6 XT,355.000 TL,2004 km,221.000 km,Gri km,03 Ocak 2025 km,Ankara Akyurt km,Badly damaged
+Citroen C5 1.6 e-HDi Confort,510.000 TL,2013 km,370.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Haliliye km,Badly damaged
+Honda Civic 1.4 i S,325.000 TL,1999 km,232.000 km,Beyaz km,03 Ocak 2025 km,Bartýn Merkez km,Badly damaged
+Hyundai Accent 1.3 Admire,315.000 TL,2006 km,261.000 km,Gri (metalik) km,03 Ocak 2025 km,Ýstanbul Pendik km,Badly damaged
+Suzuki Splash 1.2 GLS,380.000 TL,2012 km,130.000 km,Beyaz km,03 Ocak 2025 km,Diyarbakýr Kayapýnar km,Badly damaged
+Fiat Marea 1.6 SX,235.000 TL,2001 km,313.000 km,Mavi km,03 Ocak 2025 km,Ýstanbul Sarýyer km,Badly damaged
+Volkswagen Passat 1.8 Highline,330.000 TL,1999 km,350.000 km,Kýrmýzý km,03 Ocak 2025 km,Þanlýurfa Haliliye km,Badly damaged
+Ford Focus 1.6 TDCi Collection,349.000 TL,2008 km,288.000 km,Siyah km,03 Ocak 2025 km,Konya Selçuklu km,Badly damaged
+BMW 3 Serisi 320d Comfort,685.000 TL,2010 km,327.000 km,Beyaz km,03 Ocak 2025 km,Mardin Artuklu km,Badly damaged
+Audi A3 Sportback 1.6 Ambiente,410.000 TL,2005 km,365.000 km,Gri km,03 Ocak 2025 km,Ýstanbul Kartal km,Badly damaged
+Kia Rio 1.5 CRDi Trend,425.000 TL,2011 km,260.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Beþiktaþ km,Badly damaged
+Ford Fiesta 1.4 TDCi Titanium,455.000 TL,2012 km,198.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Küçükçekmece km,Badly damaged
+Mercedes - Benz A 180 CDI BlueEFFICIENCY Style,825.000 TL,2014 km,188.000 km,Siyah km,03 Ocak 2025 km,Diyarbakýr Kayapýnar km,Badly damaged
+Opel Corsa 1.4 Twinport Cosmo,295.000 TL,2004 km,167.000 km,Beyaz km,03 Ocak 2025 km,Gaziantep Þahinbey km,Badly damaged
+Honda Civic 1.6 i-VTEC LS,440.000 TL,2003 km,229.500 km,Lacivert km,03 Ocak 2025 km,Ýstanbul Büyükçekmece km,Badly damaged
+Skoda Octavia 1.6 TDI Style CR,835.000 TL,2016 km,157.000 km,Beyaz km,03 Ocak 2025 km,Kilis Merkez km,Badly damaged
+Seat Cordoba 1.4 TDI Stylance,284.900 TL,2008 km,250.000 km,Gri km,03 Ocak 2025 km,Ýzmir Gaziemir km,Badly damaged
+Mercedes - Benz B 180 BlueEFFICIENCY Sport,935.000 TL,2014 km,115.000 km,Beyaz km,03 Ocak 2025 km,Ankara Gölbaþý km,Badly damaged
+Geely FC 1.5 GSL,220.000 TL,2010 km,135.000 km,Kýrmýzý km,03 Ocak 2025 km,Ankara Altýndað km,Badly damaged
+Mercedes - Benz E 200,410.000 TL,1993 km,351.000 km,Siyah km,03 Ocak 2025 km,Hatay Samandað km,Badly damaged
+Hyundai Accent Era 1.6 Select,530.000 TL,2008 km,145.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Balýkesir Altýeylül km,Badly damaged
+Citroen C4 1.6 HDi Confort Plus,420.000 TL,2013 km,256.000 km,Beyaz km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Badly damaged
+Fiat Egea 1.6 Multijet Easy,612.000 TL,2020 km,240.000 km,Beyaz km,03 Ocak 2025 km,Hatay Defne km,Badly damaged
+Renault Fluence 1.5 dCi Privilege,495.000 TL,2012 km,255.000 km,Gri km,03 Ocak 2025 km,Þanlýurfa Eyyübiye km,Badly damaged
+Opel Astra 1.4 T Sport,530.000 TL,2011 km,197.000 km,Siyah km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Badly damaged
+Opel Astra 1.6 Edition,600.000 TL,2017 km,129.350 km,Beyaz km,03 Ocak 2025 km,Adana Seyhan km,Badly damaged
+Renault Symbol 1.4 Authentique,345.000 TL,2008 km,311.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Ankara Altýndað km,Badly damaged
+Skoda Octavia 1.6 TDI Elegance CR,565.000 TL,2012 km,267.000 km,Siyah km,03 Ocak 2025 km,Hatay Reyhanlý km,Badly damaged
+Volkswagen Passat 1.6 TDi BlueMotion Comfortline,880.000 TL,2013 km,202.000 km,Beyaz km,03 Ocak 2025 km,Hatay Antakya km,Badly damaged
+Ford Focus 1.6 Ti-VCT Style Plus,520.000 TL,2011 km,248.000 km,Siyah km,03 Ocak 2025 km,Gaziantep Þahinbey km,Badly damaged
+Volkswagen Jetta 1.9 TDi Midline,650.000 TL,2008 km,221.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Hatay Antakya km,Badly damaged
+Volkswagen Passat 1.6 TDi BlueMotion Comfortline,565.000 TL,2010 km,367.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Karaköprü km,Badly damaged
+Renault Megane 1.5 dCi Authentique,430.000 TL,2007 km,275.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Ankara Mamak km,Badly damaged
+Volkswagen Polo 1.4 Trendline,325.000 TL,2004 km,182.000 km,Gri (metalik) km,03 Ocak 2025 km,Yozgat Merkez km,Badly damaged
+Ford Focus 1.6 TDCi Trend,429.000 TL,2012 km,133.000 km,Gri (metalik) km,03 Ocak 2025 km,Gaziantep Þahinbey km,Badly damaged
+Citroen C4 1.6 HDi Attraction,440.000 TL,2011 km,151.000 km,Beyaz km,03 Ocak 2025 km,Gaziantep Þahinbey km,Badly damaged
+Alfa Romeo 159 1.9 JTD Distinctive Plus,490.000 TL,2007 km,291.000 km,Siyah km,03 Ocak 2025 km,Afyonkarahisar Merkez km,Badly damaged
+Skoda Rapid 1.4 TDI GreenTec Style,650.000 TL,2016 km,220.000 km,Beyaz km,03 Ocak 2025 km,Hatay Reyhanlý km,Badly damaged
+Peugeot 301 1.6 HDi Active,350.000 TL,2015 km,305.000 km,Beyaz km,03 Ocak 2025 km,Bursa Ýnegöl km,Badly damaged
+Renault Megane 1.5 dCi Expression,508.000 TL,2012 km,135.000 km,Gri km,03 Ocak 2025 km,Ýstanbul Ataþehir km,Badly damaged
+Chevrolet Aveo 1.4 LT,425.000 TL,2013 km,93.000 km,Beyaz km,03 Ocak 2025 km,Eskiþehir Odunpazarý km,Badly damaged
+Mercedes - Benz SLK 200 Kompressor,1.220.000 TL,2012 km,138.000 km,Kýrmýzý km,03 Ocak 2025 km,Tekirdað Çorlu km,Badly damaged
+Fiat Albea Sole 1.3 Multijet Active Plus,235.000 TL,2011 km,745.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Sakarya Serdivan km,Badly damaged
+Fiat Linea 1.3 Multijet Emotion Plus,355.000 TL,2011 km,271.000 km,Gri km,03 Ocak 2025 km,Kütahya Tavþanlý km,Badly damaged
+Renault Clio 1.5 dCi Icon,420.000 TL,2013 km,146.000 km,Bordo km,03 Ocak 2025 km,Gaziantep Þahinbey km,Badly damaged
+Renault Clio 1.2 Grandtour Extreme,384.900 TL,2011 km,163.000 km,Beyaz km,03 Ocak 2025 km,Ýzmir Gaziemir km,Badly damaged
+Ford Focus 1.6 TDCi Titanium,468.000 TL,2011 km,178.000 km,Füme km,03 Ocak 2025 km,Hatay Defne km,Badly damaged
+Ford Focus 1.6 TDCi Trend,325.000 TL,2010 km,320.000 km,Beyaz km,03 Ocak 2025 km,Siirt Merkez km,Badly damaged
+BMW 3 Serisi 320i ED Sport Line,1.100.000 TL,2016 km,173.000 km,Siyah km,03 Ocak 2025 km,Adana Seyhan km,Badly damaged
+Hyundai Accent Era 1.4 Start,326.500 TL,2008 km,252.006 km,Beyaz km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Badly damaged
+Mercedes - Benz CLA 180 CDI AMG,980.000 TL,2014 km,230.000 km,Beyaz km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Badly damaged
+Renault Clio 1.0 SCe Joy,707.650 TL,2023 km,57.936 km,Mavi km,03 Ocak 2025 km,Ýstanbul Maltepe km,Unchanging
+Skoda Fabia 1.6 TDI Ambiente,570.000 TL,2011 km,156.649 km,Beyaz km,03 Ocak 2025 km,Ýzmir Gaziemir km,Unchanging
+Honda City 1.5 i-VTEC Executive,1.175.000 TL,2024 km,29.000 km,Kýrmýzý km,03 Ocak 2025 km,Ýzmir Gaziemir km,Unchanging
+Chrysler 300 C 3.0 CRD,410.000 TL,2006 km,296.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Beþiktaþ km,Unchanging
+Renault R 9 1.4 Spring,145.000 TL,1991 km,141.680 km,Gri (metalik) km,03 Ocak 2025 km,Kars Merkez km,Unchanging
+Renault Megane 1.5 dCi Extreme,595.000 TL,2008 km,139.345 km,Gri (Gümüþ) km,03 Ocak 2025 km,Eskiþehir Tepebaþý km,Unchanging
+Hyundai Accent Blue 1.6 CRDI Mode Plus,661.000 TL,2013 km,190.000 km,Beyaz km,03 Ocak 2025 km,Adana Sarýçam km,Unchanging
+Citroen C-Elysee 1.6 HDi Exclusive,555.000 TL,2015 km,198.052 km,Beyaz km,03 Ocak 2025 km,Ankara Altýndað km,Unchanging
+Renault Clio 1.0 TCe Joy,881.000 TL,2022 km,44.000 km,Beyaz km,03 Ocak 2025 km,Isparta Merkez km,Unchanging
+Renault R 19 1.6 Europa RNE,305.000 TL,2000 km,230.000 km,Beyaz km,03 Ocak 2025 km,Tokat Merkez km,Unchanging
+Seat Cordoba 1.4 Stylance,270.000 TL,2005 km,241.000 km,Siyah km,03 Ocak 2025 km,Malatya Yeþilyurt km,Unchanging
+Volkswagen Golf 1.4 TSi Comfortline,949.000 TL,2013 km,142.000 km,Beyaz km,03 Ocak 2025 km,Afyonkarahisar Merkez km,Unchanging
+Fiat Egea 1.3 Multijet Easy,889.900 TL,2023 km,92.000 km,Beyaz km,03 Ocak 2025 km,Adana Seyhan km,Unchanging
+Hyundai Accent Era 1.5 CRDi-VGT Start,445.000 TL,2009 km,254.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Karabük Merkez km,Unchanging
+Toyota Corolla 1.4 D-4D Elegant,710.000 TL,2011 km,164.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Eyyübiye km,Unchanging
+BMW 3 Serisi 316i Comfort,715.000 TL,2011 km,211.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Adana Çukurova km,Unchanging
+Renault Megane 1.5 dCi Authentique,400.000 TL,2009 km,298.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Manisa Salihli km,Unchanging
+Fiat Egea 1.3 Multijet Easy,1.015.000 TL,2024 km,6.001 km,Beyaz km,03 Ocak 2025 km,Ankara Keçiören km,Unchanging
+BMW 1 Serisi 118i Premium,530.000 TL,2007 km,232.000 km,Gri (titanyum) km,03 Ocak 2025 km,Isparta Merkez km,Unchanging
+Opel Astra 1.6 GL,255.000 TL,1998 km,380.000 km,Beyaz km,03 Ocak 2025 km,Kayseri Melikgazi km,Unchanging
+Mercedes - Benz C 200 D AMG,1.625.000 TL,2016 km,160.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Fatih km,Unchanging
+Volkswagen Passat 1.6 TDi BlueMotion Comfortline,850.000 TL,2012 km,207.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Birecik km,Unchanging
+MINI Cooper S 1.6,619.900 TL,2010 km,172.000 km,Mavi km,03 Ocak 2025 km,Ýstanbul Beylikdüzü km,Unchanging
+Volkswagen Polo 1.0 TSi Comfortline,819.900 TL,2020 km,113.357 km,Turuncu km,03 Ocak 2025 km,Denizli Merkezefendi km,Unchanging
+Renault Clio 1.3 TCe Touch,955.000 TL,2020 km,26.700 km,Kýrmýzý km,03 Ocak 2025 km,Eskiþehir Tepebaþý km,Unchanging
+Opel Astra 1.5 D Edition,1.080.000 TL,2020 km,86.500 km,Beyaz km,03 Ocak 2025 km,Malatya Yeþilyurt km,Unchanging
+Tofaþ Doðan 1.6 ie,329.000 TL,2001 km,68.500 km,Bordo km,03 Ocak 2025 km,Ýstanbul Bahçelievler km,Unchanging
+Volkswagen Golf 1.6 TDi BlueMotion Midline Plus,123.456 TL,2016 km,254.000 km,Siyah km,03 Ocak 2025 km,Batman Merkez km,Unchanging
+Renault R 12 Toros,255.000 TL,1995 km,29.000 km,Beyaz km,03 Ocak 2025 km,Balýkesir Karesi km,Unchanging
+Renault Symbol 1.5 dCi Joy,590.000 TL,2018 km,170.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Kadýköy km,Unchanging
+Opel Astra 1.4 T Edition Plus,920.000 TL,2019 km,76.000 km,Gri km,03 Ocak 2025 km,Ardahan Merkez km,Unchanging
+BMW 5 Serisi 530d Comfort,1.390.000 TL,2011 km,318.268 km,Beyaz km,03 Ocak 2025 km,Konya Karatay km,Unchanging
+Volvo S80 1.6 D Premium,975.000 TL,2014 km,241.000 km,Siyah km,03 Ocak 2025 km,Giresun Merkez km,Unchanging
+Renault R 12 Toros,120.000 TL,1993 km,123.456 km,Beyaz km,03 Ocak 2025 km,Afyonkarahisar Merkez km,Unchanging
+Opel Corsa 1.2 T GS,1.159.000 TL,2023 km,9.940 km,Mavi km,03 Ocak 2025 km,Antalya Konyaaltý km,Unchanging
+Renault Clio 0.9 TCe Joy,740.000 TL,2019 km,35.000 km,Beyaz km,03 Ocak 2025 km,Bursa Gemlik km,Unchanging
+Toyota Corolla 1.6 Dream,1.245.000 TL,2020 km,71.000 km,Beyaz km,03 Ocak 2025 km,Elazýð Kovancýlar km,Unchanging
+Mercedes - Benz C 200 AMG,4.100.000 TL,2023 km,6.200 km,Siyah km,03 Ocak 2025 km,Ýstanbul Beylikdüzü km,Unchanging
+Opel Astra 1.3 CDTI Edition,709.000 TL,2013 km,59.000 km,Gri km,03 Ocak 2025 km,Ýstanbul Baðcýlar km,Unchanging
+Renault Fluence 1.5 dCi Dynamique,650.000 TL,2011 km,210.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Bursa Nilüfer km,Unchanging
+Chevrolet Aveo 1.4 SE,437.000 TL,2007 km,83.000 km,Beyaz km,03 Ocak 2025 km,Ankara Keçiören km,Unchanging
+Tofaþ Þahin 5 Vites,165.000 TL,1992 km,220.000 km,Bej km,03 Ocak 2025 km,Yozgat Yerköy km,Unchanging
+Renault Fluence 1.5 dCi Touch Plus,625.000 TL,2015 km,290.000 km,Beyaz km,03 Ocak 2025 km,Diyarbakýr Sur km,Unchanging
+Toyota Corolla 1.5 Vision,1.235.000 TL,2021 km,67.000 km,Beyaz km,03 Ocak 2025 km,Malatya Battalgazi km,Unchanging
+Fiat Siena 1.4 EL,275.000 TL,1999 km,200.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Erzincan Merkez km,Unchanging
+BMW 5 Serisi 520i Premium,1.725.000 TL,2014 km,105.000 km,Beyaz km,03 Ocak 2025 km,Ýzmir Balçova km,Unchanging
+Peugeot 308 1.6 HDi Comfort,530.000 TL,2009 km,189.000 km,Bej km,03 Ocak 2025 km,Gaziantep Þahinbey km,Unchanging
+Ford Focus 1.6 TDCi Trend X,675.000 TL,2012 km,185.000 km,Beyaz km,03 Ocak 2025 km,Zonguldak Merkez km,Unchanging
+Renault Megane 1.5 dCi Dynamique,425.000 TL,2005 km,235.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Maltepe km,Unchanging
+Ford Fiesta 1.25 Flair,300.000 TL,2001 km,200.950 km,Kýrmýzý km,03 Ocak 2025 km,Çanakkale Çan km,Unchanging
+Opel Vectra 2.0 GLS,230.000 TL,1995 km,266.000 km,Beyaz km,03 Ocak 2025 km,Denizli Çivril km,Unchanging
+Tofaþ Doðan S,260.000 TL,1996 km,92.250 km,Kýrmýzý km,03 Ocak 2025 km,Tekirdað Çorlu km,Unchanging
+Fiat Bravo 1.4 Active,420.000 TL,2011 km,280.000 km,Gri (metalik) km,03 Ocak 2025 km,Çanakkale Merkez km,Unchanging
+Skoda Octavia 1.4 TSI Sport,1.264.000 TL,2017 km,91.000 km,Mavi km,03 Ocak 2025 km,Kastamonu Merkez km,Unchanging
+Honda Civic 1.6 i-VTEC Eco Premium,1.270.000 TL,2019 km,23.000 km,Beyaz km,03 Ocak 2025 km,Aksaray Merkez km,Unchanging
+Citroen C3 1.4 HDi X Furio,340.000 TL,2007 km,278.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sancaktepe km,Unchanging
+Toyota Corolla 1.33 Life,848.000 TL,2014 km,71.000 km,Gri km,03 Ocak 2025 km,Adana Tufanbeyli km,Unchanging
+Renault Megane 1.5 dCi Expression,470.000 TL,2006 km,253.000 km,Siyah km,03 Ocak 2025 km,Ýzmir Karabaðlar km,Unchanging
+Renault Megane 1.6 Expression,375.000 TL,2006 km,279.000 km,Kýrmýzý km,03 Ocak 2025 km,Konya Meram km,Unchanging
+Chevrolet Cruze 1.6,400.000 TL,2010 km,276.000 km,Siyah km,03 Ocak 2025 km,Ankara Yenimahalle km,Unchanging
+Volkswagen Polo 1.0 TSi Comfortline,1.010.000 TL,2021 km,53.000 km,Turuncu km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Unchanging
+Renault Fluence 1.5 dCi Touch Plus,650.000 TL,2014 km,216.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Eyyübiye km,Unchanging
+Hyundai Getz 1.4 DOHC AB AC,525.000 TL,2010 km,82.000 km,Siyah km,03 Ocak 2025 km,Aydýn Köþk km,Unchanging
+Volkswagen Jetta 1.6 TDi Highline,740.000 TL,2012 km,248.000 km,Beyaz km,03 Ocak 2025 km,Diyarbakýr Baðlar km,Unchanging
+Renault Fluence 1.5 dCi Joy,490.000 TL,2014 km,210.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Fatih km,Unchanging
+Fiat Linea 1.3 Multijet Emotion Plus,485.000 TL,2011 km,210.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sancaktepe km,Unchanging
+Chevrolet Cruze 1.6 LT,530.000 TL,2012 km,175.000 km,Beyaz km,03 Ocak 2025 km,Mersin Silifke km,Unchanging
+Mercedes - Benz C 200 All-Terrain,3.215.000 TL,2023 km,14.750 km,Siyah km,03 Ocak 2025 km,Aydýn Didim km,Unchanging
+Dacia Sandero 1.0 Ambiance,650.000 TL,2020 km,42.000 km,Beyaz km,03 Ocak 2025 km,Adana Yüreðir km,Unchanging
+Ford Focus 1.6 TDCi Trend,530.000 TL,2008 km,265.000 km,Gri km,03 Ocak 2025 km,Ankara Sincan km,Unchanging
+Volkswagen Golf 1.0 TSi Impression,1.100.000 TL,2022 km,102.000 km,Beyaz km,03 Ocak 2025 km,Kýrklareli Lüleburgaz km,Unchanging
+Opel Astra 1.6 Edition,615.750 TL,2012 km,199.000 km,Füme km,03 Ocak 2025 km,Malatya Yeþilyurt km,Unchanging
+Honda Civic 1.6 i-VTEC Elegance,880.000 TL,2011 km,134.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Arnavutköy km,Unchanging
+Volkswagen Polo 1.4 TDi Comfortline,750.000 TL,2016 km,130.507 km,Beyaz km,03 Ocak 2025 km,Trabzon Ortahisar km,Unchanging
+Opel Corsa 1.4 Twinport Enjoy 111,645.000 TL,2010 km,168.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Kayseri Yeþilhisar km,Unchanging
+Toyota Auris 1.4 D-4D Elegant,475.000 TL,2008 km,216.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Edirne Keþan km,Unchanging
+Opel Astra 1.6 Enjoy,460.000 TL,2004 km,203.900 km,Gri (Gümüþ) km,03 Ocak 2025 km,Ýstanbul Beylikdüzü km,Unchanging
+Mercedes - Benz B 150 Boyut,565.000 TL,2006 km,215.000 km,Gri km,03 Ocak 2025 km,Eskiþehir Odunpazarý km,Unchanging
+Renault Clio 1.2 Joy,685.000 TL,2019 km,60.000 km,Gri (titanyum) km,03 Ocak 2025 km,Erzurum Tortum km,Unchanging
+Fiat Egea 1.3 Multijet Urban Plus,740.000 TL,2017 km,115.000 km,Beyaz km,03 Ocak 2025 km,Yalova Çiftlikköy km,Unchanging
+Honda Civic 1.6 Elegance,1.250.000 TL,2017 km,33.000 km,Lacivert km,03 Ocak 2025 km,Ýstanbul Þiþli km,Unchanging
+Volkswagen Polo 1.2 TDi Trendline,611.000 TL,2013 km,145.500 km,Siyah km,03 Ocak 2025 km,Ýstanbul Kaðýthane km,Unchanging
+Citroen C3 1.2 PureTech Feel Bold,895.000 TL,2021 km,107.000 km,Kýrmýzý km,03 Ocak 2025 km,Kars Merkez km,Unchanging
+Renault Clio 1.0 TCe Joy,880.000 TL,2020 km,57.032 km,Kýrmýzý km,03 Ocak 2025 km,Kocaeli Çayýrova km,Unchanging
+Mercedes - Benz S 320 CDI L,1.550.000 TL,2007 km,341.650 km,Siyah km,03 Ocak 2025 km,Konya Karatay km,Unchanging
+BMW 3 Serisi 320i First Edition M Sport,1.735.000 TL,2019 km,127.500 km,Mavi km,03 Ocak 2025 km,Ýstanbul Çekmeköy km,Unchanging
+BMW 3 Serisi 320i ED 40th Year Edition,1.620.000 TL,2015 km,150.000 km,Füme km,03 Ocak 2025 km,Ýstanbul Tuzla km,Unchanging
+Fiat Egea 1.4 Fire Easy Plus,690.000 TL,2019 km,44.000 km,Beyaz km,03 Ocak 2025 km,Diyarbakýr Ergani km,Unchanging
+Volkswagen Jetta 1.2 TSi Trendline,685.000 TL,2015 km,207.500 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Karaköprü km,Unchanging
+Fiat Egea 1.4 Fire Urban,875.000 TL,2024 km,18.200 km,Beyaz km,03 Ocak 2025 km,Giresun Merkez km,Unchanging
+Volkswagen Jetta 1.6 TDi Trendline,625.000 TL,2012 km,263.000 km,Gri (metalik) km,03 Ocak 2025 km,Antalya Kepez km,Unchanging
+Fiat Egea 1.4 Fire Urban,695.000 TL,2021 km,90.000 km,Gri km,03 Ocak 2025 km,Ýstanbul Arnavutköy km,Unchanging
+Renault Clio 1.2 Joy,645.000 TL,2014 km,50.000 km,Siyah km,03 Ocak 2025 km,Ankara Kahramankazan km,Unchanging
+Renault Clio 1.2 Joy,595.000 TL,2014 km,167.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sultangazi km,Unchanging
+Renault Fluence 1.5 dCi Expression,545.000 TL,2010 km,243.000 km,Füme km,03 Ocak 2025 km,Adana Seyhan km,Unchanging
+Opel Astra 1.6 Essentia,650.000 TL,2013 km,124.000 km,Beyaz km,03 Ocak 2025 km,Erzurum Yakutiye km,Unchanging
+Volkswagen Polo 1.6 Comfortline Classic,261.000 TL,2000 km,240.250 km,Mavi (metalik) km,03 Ocak 2025 km,Ýstanbul Küçükçekmece km,Unchanging
+Fiat Egea 1.4 Fire Urban,660.000 TL,2016 km,70.000 km,Gri km,03 Ocak 2025 km,Adana Ceyhan km,Unchanging
+Opel Astra 1.4 T Sport Still,655.000 TL,2012 km,178.000 km,Beyaz km,03 Ocak 2025 km,Ankara Çankaya km,Unchanging
+Fiat Egea 1.4 Fire Urban,653.000 TL,2018 km,70.000 km,Beyaz km,03 Ocak 2025 km,Bartýn Merkez km,Unchanging
+Peugeot 301 1.6 HDi Allure,680.000 TL,2013 km,104.000 km,Beyaz km,03 Ocak 2025 km,Kahramanmaraþ Onikiþubat km,Without Tramer
+Renault Megane 1.5 dCi Extreme,595.000 TL,2008 km,139.345 km,Gri (Gümüþ) km,03 Ocak 2025 km,Eskiþehir Tepebaþý km,Without Tramer
+Peugeot 208 1.4 HDi Urban Soul,559.000 TL,2013 km,194.000 km,Siyah km,03 Ocak 2025 km,Giresun Bulancak km,Without Tramer
+Ford Fiesta 1.4 TDCi Comfort,375.000 TL,2006 km,212.000 km,Beyaz km,03 Ocak 2025 km,Ankara Çankaya km,Without Tramer
+Renault Clio 1.0 TCe Joy,881.000 TL,2022 km,44.000 km,Beyaz km,03 Ocak 2025 km,Isparta Merkez km,Without Tramer
+Opel Insignia 1.6 CDTI Cosmo,935.000 TL,2017 km,200.000 km,Gri km,03 Ocak 2025 km,Antalya Alanya km,Without Tramer
+Citroen C-Elysee 1.6 HDi Exclusive,659.000 TL,2016 km,130.000 km,Beyaz km,03 Ocak 2025 km,Tekirdað Çerkezköy km,Without Tramer
+Fiat Egea 1.3 Multijet Easy,889.900 TL,2023 km,92.000 km,Beyaz km,03 Ocak 2025 km,Adana Seyhan km,Without Tramer
+Hyundai Accent 1.5 CRDi Admire,285.000 TL,2004 km,20.321 km,Gri (metalik) km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Without Tramer
+Tofaþ Þahin 1.4,100.000 TL,2000 km,95.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Esenyurt km,Without Tramer
+Renault R 9 1.4 Broadway,210.000 TL,1996 km,300.000 km,Beyaz km,03 Ocak 2025 km,Mersin Toroslar km,Without Tramer
+Toyota Corolla 1.4 D-4D Elegant,710.000 TL,2011 km,164.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Eyyübiye km,Without Tramer
+Volkswagen Jetta 1.6 TDi Trendline,595.000 TL,2015 km,407.000 km,Beyaz km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Without Tramer
+Fiat Egea 1.3 Multijet Easy,1.015.000 TL,2024 km,6.001 km,Beyaz km,03 Ocak 2025 km,Ankara Keçiören km,Without Tramer
+Opel Astra 1.6 GL,255.000 TL,1998 km,380.000 km,Beyaz km,03 Ocak 2025 km,Kayseri Melikgazi km,Without Tramer
+Volkswagen Golf 1.4 TSi Comfortline,940.000 TL,2015 km,168.000 km,Siyah km,03 Ocak 2025 km,Kocaeli Darýca km,Without Tramer
+Volkswagen Passat 1.6 TDi BlueMotion Comfortline,850.000 TL,2012 km,207.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Birecik km,Without Tramer
+Ford Mondeo 2.0 Ghia,270.000 TL,1998 km,264.000 km,Yeþil (metalik) km,03 Ocak 2025 km,Konya Selçuklu km,Without Tramer
+Renault Clio 1.3 TCe Touch,955.000 TL,2020 km,26.700 km,Kýrmýzý km,03 Ocak 2025 km,Eskiþehir Tepebaþý km,Without Tramer
+Volkswagen Golf 1.0 TSi Midline Plus,1.045.000 TL,2019 km,55.000 km,Beyaz km,03 Ocak 2025 km,Tekirdað Kapaklý km,Without Tramer
+Renault Fluence 1.5 dCi Extreme Edition,580.000 TL,2012 km,174.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Ýstanbul Küçükçekmece km,Without Tramer
+Opel Astra 1.5 D Edition,1.080.000 TL,2020 km,86.500 km,Beyaz km,03 Ocak 2025 km,Malatya Yeþilyurt km,Without Tramer
+Honda Civic 1.6 LS,265.000 TL,1998 km,298.000 km,Mavi km,03 Ocak 2025 km,Ýzmir Menemen km,Without Tramer
+Opel Corsa 1.2 Twinport Essentia,565.000 TL,2012 km,93.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Üsküdar km,Without Tramer
+Fiat Linea 1.6 Multijet Urban,535.000 TL,2012 km,140.000 km,Beyaz km,03 Ocak 2025 km,Kayseri Talas km,Without Tramer
+Peugeot 307 1.6 XT,430.000 TL,2004 km,204.000 km,Beyaz km,03 Ocak 2025 km,Kocaeli Karamürsel km,Without Tramer
+Volkswagen Golf 1.6 TDi BlueMotion Midline Plus,123.456 TL,2016 km,254.000 km,Siyah km,03 Ocak 2025 km,Batman Merkez km,Without Tramer
+Renault Symbol 1.5 dCi Joy,590.000 TL,2018 km,170.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Kadýköy km,Without Tramer
+Opel Astra 1.4 T Edition Plus,920.000 TL,2019 km,76.000 km,Gri km,03 Ocak 2025 km,Ardahan Merkez km,Without Tramer
+Renault R 9 1.4 Broadway GTE,200.000 TL,1991 km,317.000 km,Beyaz km,03 Ocak 2025 km,Tokat Erbaa km,Without Tramer
+Volvo S80 1.6 D Premium,975.000 TL,2014 km,241.000 km,Siyah km,03 Ocak 2025 km,Giresun Merkez km,Without Tramer
+Opel Corsa 1.2 T GS,1.159.000 TL,2023 km,9.940 km,Mavi km,03 Ocak 2025 km,Antalya Konyaaltý km,Without Tramer
+Renault Clio 0.9 TCe Joy,740.000 TL,2019 km,35.000 km,Beyaz km,03 Ocak 2025 km,Bursa Gemlik km,Without Tramer
+BMW 3 Serisi 316i Standart,550.000 TL,2006 km,283.000 km,Mavi (metalik) km,03 Ocak 2025 km,Ýstanbul Sultanbeyli km,Without Tramer
+Fiat Tipo 1.6 SX,220.000 TL,1998 km,200.000 km,Bordo km,03 Ocak 2025 km,Çankýrý Merkez km,Without Tramer
+Peugeot 207 1.4 VTi Active,509.000 TL,2011 km,118.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Trabzon Akçaabat km,Without Tramer
+Fiat Tipo 1.6 SX,215.500 TL,1998 km,135.086 km,Mavi km,03 Ocak 2025 km,Sakarya Akyazý km,Without Tramer
+Renault Fluence 1.5 dCi Touch Plus,625.000 TL,2015 km,290.000 km,Beyaz km,03 Ocak 2025 km,Diyarbakýr Sur km,Without Tramer
+Toyota Corolla 1.5 Vision,1.235.000 TL,2021 km,67.000 km,Beyaz km,03 Ocak 2025 km,Malatya Battalgazi km,Without Tramer
+BMW 5 Serisi 520i Premium,1.725.000 TL,2014 km,105.000 km,Beyaz km,03 Ocak 2025 km,Ýzmir Balçova km,Without Tramer
+Volkswagen Passat 1.4 TSi BlueMotion Comfortline,1.270.000 TL,2015 km,217.000 km,Beyaz km,03 Ocak 2025 km,Ankara Sincan km,Without Tramer
+Ford Focus 1.6 TDCi Trend X,675.000 TL,2012 km,185.000 km,Beyaz km,03 Ocak 2025 km,Zonguldak Merkez km,Without Tramer
+Renault Megane 1.6 Dynamique,425.000 TL,2005 km,243.000 km,Gri km,03 Ocak 2025 km,Mardin Midyat km,Without Tramer
+Tofaþ Þahin 1.6,165.000 TL,1993 km,90.000 km,Beyaz km,03 Ocak 2025 km,Kayseri Melikgazi km,Without Tramer
+Volkswagen Polo 1.2 Trendline,585.000 TL,2013 km,164.000 km,Beyaz km,03 Ocak 2025 km,Kütahya Merkez km,Without Tramer
+Mercedes - Benz CLK 200 Kompressor Avantgarde,830.000 TL,2004 km,230.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Çekmeköy km,Without Tramer
+Ford Fiesta 1.25 Flair,300.000 TL,2001 km,200.950 km,Kýrmýzý km,03 Ocak 2025 km,Çanakkale Çan km,Without Tramer
+Fiat Tipo 1.4 S,250.000 TL,1998 km,216.500 km,Gri (Gümüþ) km,03 Ocak 2025 km,Zonguldak Ereðli km,Without Tramer
+Tofaþ Doðan S,260.000 TL,1996 km,92.250 km,Kýrmýzý km,03 Ocak 2025 km,Tekirdað Çorlu km,Without Tramer
+Tofaþ Þahin S,162.000 TL,1993 km,115.000 km,Kýrmýzý km,03 Ocak 2025 km,Ýzmir Çeþme km,Without Tramer
+Fiat Bravo 1.4 Active,420.000 TL,2011 km,280.000 km,Gri (metalik) km,03 Ocak 2025 km,Çanakkale Merkez km,Without Tramer
+Skoda Octavia 1.4 TSI Sport,1.264.000 TL,2017 km,91.000 km,Mavi km,03 Ocak 2025 km,Kastamonu Merkez km,Without Tramer
+Kia Pro Ceed 1.6 CRDi Concept,540.000 TL,2011 km,132.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Ümraniye km,Without Tramer
+Fiat Egea 1.3 Multijet Easy,575.000 TL,2016 km,115.000 km,Beyaz km,03 Ocak 2025 km,Gaziantep Þahinbey km,Without Tramer
+Citroen C3 1.4 HDi X Furio,340.000 TL,2007 km,278.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sancaktepe km,Without Tramer
+Opel Corsa 1.2 Twinport Essentia,460.000 TL,2005 km,134.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Adana Çukurova km,Without Tramer
+Volkswagen Jetta 1.2 TSi Trendline,830.000 TL,2014 km,138.000 km,Gri km,03 Ocak 2025 km,Ýstanbul Baðcýlar km,Without Tramer
+Renault Megane 1.6 Sportway,485.000 TL,2006 km,94.000 km,Kýrmýzý km,03 Ocak 2025 km,Elazýð Merkez km,Without Tramer
+Fiat Punto 1.4 Popstar S&S,450.000 TL,2014 km,135.000 km,Gri km,03 Ocak 2025 km,Mardin Artuklu km,Without Tramer
+Honda Jazz 1.4 ES,510.000 TL,2003 km,218.000 km,Mavi km,03 Ocak 2025 km,Muðla Fethiye km,Without Tramer
+Renault Megane 1.6 Dynamique,525.000 TL,2004 km,176.700 km,Gri (Gümüþ) km,03 Ocak 2025 km,Samsun Atakum km,Without Tramer
+Volkswagen Jetta 1.6 TDi Highline,740.000 TL,2012 km,248.000 km,Beyaz km,03 Ocak 2025 km,Diyarbakýr Baðlar km,Without Tramer
+Fiat Linea 1.3 Multijet Emotion Plus,485.000 TL,2011 km,210.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sancaktepe km,Without Tramer
+Chevrolet Cruze 1.6 Sport Plus,515.000 TL,2012 km,220.000 km,Siyah km,03 Ocak 2025 km,Isparta Atabey km,Without Tramer
+Toyota Corolla 1.6 Comfort Extra,650.000 TL,2009 km,221.000 km,Gri km,03 Ocak 2025 km,Adana Yüreðir km,Without Tramer
+Mercedes - Benz C 200 All-Terrain,3.215.000 TL,2023 km,14.750 km,Siyah km,03 Ocak 2025 km,Aydýn Didim km,Without Tramer
+Dacia Sandero 1.0 Ambiance,650.000 TL,2020 km,42.000 km,Beyaz km,03 Ocak 2025 km,Adana Yüreðir km,Without Tramer
+Fiat Egea 1.3 Multijet Easy,660.000 TL,2019 km,135.000 km,Beyaz km,03 Ocak 2025 km,Ýzmir Bayraklý km,Without Tramer
+Volkswagen Golf 1.0 TSi Impression,1.100.000 TL,2022 km,102.000 km,Beyaz km,03 Ocak 2025 km,Kýrklareli Lüleburgaz km,Without Tramer
+Volkswagen Passat 1.9 TDi Highline,585.000 TL,2004 km,214.000 km,Füme km,03 Ocak 2025 km,Zonguldak Çaycuma km,Without Tramer
+Opel Astra 1.6 Edition,615.750 TL,2012 km,199.000 km,Füme km,03 Ocak 2025 km,Malatya Yeþilyurt km,Without Tramer
+Honda Civic 1.6 i-VTEC Elegance,880.000 TL,2011 km,134.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Arnavutköy km,Without Tramer
+Alfa Romeo 147 1.6 TS Distinctive,572.500 TL,2007 km,117.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Pendik km,Without Tramer
+Renault Fluence 1.5 dCi Expression,525.000 TL,2010 km,198.500 km,Siyah km,03 Ocak 2025 km,Þanlýurfa Karaköprü km,Without Tramer
+Renault Clio 1.2 Touch,675.000 TL,2018 km,61.700 km,Beyaz km,03 Ocak 2025 km,Ýzmir Urla km,Without Tramer
+Opel Astra 1.6 Enjoy,460.000 TL,2004 km,203.900 km,Gri (Gümüþ) km,03 Ocak 2025 km,Ýstanbul Beylikdüzü km,Without Tramer
+Renault Clio 1.2 Joy,685.000 TL,2019 km,60.000 km,Gri (titanyum) km,03 Ocak 2025 km,Erzurum Tortum km,Without Tramer
+Fiat Egea 1.3 Multijet Urban Plus,740.000 TL,2017 km,115.000 km,Beyaz km,03 Ocak 2025 km,Yalova Çiftlikköy km,Without Tramer
+Honda Civic 1.6 Elegance,1.250.000 TL,2017 km,33.000 km,Lacivert km,03 Ocak 2025 km,Ýstanbul Þiþli km,Without Tramer
+Volkswagen Polo 1.2 TDi Trendline,611.000 TL,2013 km,145.500 km,Siyah km,03 Ocak 2025 km,Ýstanbul Kaðýthane km,Without Tramer
+Fiat Linea 1.3 Multijet Urban,590.000 TL,2015 km,127.000 km,Beyaz km,03 Ocak 2025 km,Aydýn Efeler km,Without Tramer
+Volkswagen Jetta 1.2 TSi Trendline,749.000 TL,2012 km,138.000 km,Beyaz km,03 Ocak 2025 km,Adana Seyhan km,Without Tramer
+Toyota Corolla 1.4 D-4D Touch,855.000 TL,2016 km,151.000 km,Beyaz km,03 Ocak 2025 km,Çorum Merkez km,Without Tramer
+Renault Clio 1.0 TCe Joy,880.000 TL,2020 km,57.032 km,Kýrmýzý km,03 Ocak 2025 km,Kocaeli Çayýrova km,Without Tramer
+Volkswagen Golf 1.6 TDi BlueMotion Midline Plus,698.000 TL,2013 km,247.000 km,Beyaz km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Without Tramer
+Opel Astra 1.4 Classic,665.000 TL,2008 km,107.000 km,Lacivert km,03 Ocak 2025 km,Çanakkale Gelibolu km,Without Tramer
+Ford Focus 1.6 Ti-VCT Titanium,525.000 TL,2008 km,252.000 km,Gri (titanyum) km,03 Ocak 2025 km,Ankara Etimesgut km,Without Tramer
+Renault Latitude 1.5 dCi Privilege,555.000 TL,2012 km,232.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Hatay Ýskenderun km,Without Tramer
+Volkswagen Polo 1.4 Comfortline,630.000 TL,2010 km,140.000 km,Füme km,03 Ocak 2025 km,Ýzmir Aliaða km,Without Tramer
+BMW 3 Serisi 320i First Edition M Sport,1.735.000 TL,2019 km,127.500 km,Mavi km,03 Ocak 2025 km,Ýstanbul Çekmeköy km,Without Tramer
+Volkswagen Jetta 1.2 TSi Trendline,685.000 TL,2015 km,207.500 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Karaköprü km,Without Tramer
+Fiat Egea 1.3 Multijet Easy,659.000 TL,2017 km,178.000 km,Beyaz km,03 Ocak 2025 km,Ankara Etimesgut km,Without Tramer
+Renault Symbol 1.5 dCi Joy,656.000 TL,2015 km,195.000 km,Gri (metalik) km,03 Ocak 2025 km,Ordu Fatsa km,Without Tramer
+Renault Megane 1.5 dCi Sport Tourer Privilege,660.000 TL,2012 km,196.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Þiþli km,Without Tramer
+Citroen C4 1.4 SX,347.000 TL,2007 km,285.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Kocaeli Derince km,Without Tramer
+Volkswagen Jetta 1.6 TDi Trendline,625.000 TL,2012 km,263.000 km,Gri (metalik) km,03 Ocak 2025 km,Antalya Kepez km,Without Tramer
+Kia Rio 1.4 CRDi Concept,680.000 TL,2016 km,114.000 km,Beyaz km,03 Ocak 2025 km,Samsun Ýlkadým km,Without Tramer
+Ford Fiesta 1.4 TDCi Trend,640.000 TL,2010 km,270.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Ýzmir Buca km,Without Tramer
+Renault Clio 1.2 Joy,645.000 TL,2014 km,50.000 km,Siyah km,03 Ocak 2025 km,Ankara Kahramankazan km,Without Tramer
+Renault Clio 1.2 Joy,595.000 TL,2014 km,167.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sultangazi km,Without Tramer
+Peugeot 301 1.6 HDi Allure,680.000 TL,2013 km,104.000 km,Beyaz km,03 Ocak 2025 km,Kahramanmaraþ Onikiþubat km,Unpainted
+Renault Megane 1.3 TCe Joy,1.262.900 TL,2023 km,20.673 km,Beyaz km,03 Ocak 2025 km,Ankara Çankaya km,Unpainted
+Renault Clio 1.0 SCe Joy,707.650 TL,2023 km,57.936 km,Mavi km,03 Ocak 2025 km,Ýstanbul Maltepe km,Unpainted
+Honda City 1.5 i-VTEC Executive,1.175.000 TL,2024 km,29.000 km,Kýrmýzý km,03 Ocak 2025 km,Ýzmir Gaziemir km,Unpainted
+Renault Megane 1.5 dCi Extreme,595.000 TL,2008 km,139.345 km,Gri (Gümüþ) km,03 Ocak 2025 km,Eskiþehir Tepebaþý km,Unpainted
+Hyundai Accent Blue 1.6 CRDI Mode Plus,661.000 TL,2013 km,190.000 km,Beyaz km,03 Ocak 2025 km,Adana Sarýçam km,Unpainted
+Renault Clio 1.0 TCe Joy,881.000 TL,2022 km,44.000 km,Beyaz km,03 Ocak 2025 km,Isparta Merkez km,Unpainted
+Volkswagen Golf 1.4 TSi Comfortline,949.000 TL,2013 km,142.000 km,Beyaz km,03 Ocak 2025 km,Afyonkarahisar Merkez km,Unpainted
+Fiat Egea 1.3 Multijet Easy,889.900 TL,2023 km,92.000 km,Beyaz km,03 Ocak 2025 km,Adana Seyhan km,Unpainted
+Toyota Corolla 1.4 D-4D Elegant,710.000 TL,2011 km,164.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Eyyübiye km,Unpainted
+Fiat Egea 1.3 Multijet Easy,1.015.000 TL,2024 km,6.001 km,Beyaz km,03 Ocak 2025 km,Ankara Keçiören km,Unpainted
+Opel Astra 1.6 GL,255.000 TL,1998 km,380.000 km,Beyaz km,03 Ocak 2025 km,Kayseri Melikgazi km,Unpainted
+Volkswagen Passat 1.6 TDi BlueMotion Comfortline,850.000 TL,2012 km,207.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Birecik km,Unpainted
+Renault Clio 1.3 TCe Touch,955.000 TL,2020 km,26.700 km,Kýrmýzý km,03 Ocak 2025 km,Eskiþehir Tepebaþý km,Unpainted
+Opel Astra 1.5 D Edition,1.080.000 TL,2020 km,86.500 km,Beyaz km,03 Ocak 2025 km,Malatya Yeþilyurt km,Unpainted
+Volkswagen Golf 1.6 TDi BlueMotion Midline Plus,123.456 TL,2016 km,254.000 km,Siyah km,03 Ocak 2025 km,Batman Merkez km,Unpainted
+Renault R 12 Toros,255.000 TL,1995 km,29.000 km,Beyaz km,03 Ocak 2025 km,Balýkesir Karesi km,Unpainted
+Renault Symbol 1.5 dCi Joy,590.000 TL,2018 km,170.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Kadýköy km,Unpainted
+Opel Astra 1.4 T Edition Plus,920.000 TL,2019 km,76.000 km,Gri km,03 Ocak 2025 km,Ardahan Merkez km,Unpainted
+Renault R 9 1.4 Broadway GTE,200.000 TL,1991 km,317.000 km,Beyaz km,03 Ocak 2025 km,Tokat Erbaa km,Unpainted
+Renault R 12 Toros,120.000 TL,1993 km,123.456 km,Beyaz km,03 Ocak 2025 km,Afyonkarahisar Merkez km,Unpainted
+Opel Corsa 1.2 T GS,1.159.000 TL,2023 km,9.940 km,Mavi km,03 Ocak 2025 km,Antalya Konyaaltý km,Unpainted
+Volkswagen Golf 1.4 TSi Highline,1.050.000 TL,2015 km,84.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Tuzla km,Unpainted
+Renault Clio 0.9 TCe Joy,740.000 TL,2019 km,35.000 km,Beyaz km,03 Ocak 2025 km,Bursa Gemlik km,Unpainted
+Toyota Corolla 1.6 Dream,1.245.000 TL,2020 km,71.000 km,Beyaz km,03 Ocak 2025 km,Elazýð Kovancýlar km,Unpainted
+Mercedes - Benz C 200 AMG,4.100.000 TL,2023 km,6.200 km,Siyah km,03 Ocak 2025 km,Ýstanbul Beylikdüzü km,Unpainted
+Renault Megane 1.5 dCi Touch,880.000 TL,2018 km,191.000 km,Beyaz km,03 Ocak 2025 km,Ankara Çankaya km,Unpainted
+Chevrolet Aveo 1.4 SE,437.000 TL,2007 km,83.000 km,Beyaz km,03 Ocak 2025 km,Ankara Keçiören km,Unpainted
+Tofaþ Þahin 5 Vites,165.000 TL,1992 km,220.000 km,Bej km,03 Ocak 2025 km,Yozgat Yerköy km,Unpainted
+Renault Fluence 1.5 dCi Touch Plus,625.000 TL,2015 km,290.000 km,Beyaz km,03 Ocak 2025 km,Diyarbakýr Sur km,Unpainted
+Toyota Corolla 1.5 Vision,1.235.000 TL,2021 km,67.000 km,Beyaz km,03 Ocak 2025 km,Malatya Battalgazi km,Unpainted
+Fiat Siena 1.4 EL,275.000 TL,1999 km,200.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Erzincan Merkez km,Unpainted
+BMW 5 Serisi 520i Premium,1.725.000 TL,2014 km,105.000 km,Beyaz km,03 Ocak 2025 km,Ýzmir Balçova km,Unpainted
+Peugeot 308 1.6 HDi Comfort,530.000 TL,2009 km,189.000 km,Bej km,03 Ocak 2025 km,Gaziantep Þahinbey km,Unpainted
+Ford Focus 1.6 TDCi Trend X,675.000 TL,2012 km,185.000 km,Beyaz km,03 Ocak 2025 km,Zonguldak Merkez km,Unpainted
+Opel Vectra 2.0 GLS,230.000 TL,1995 km,266.000 km,Beyaz km,03 Ocak 2025 km,Denizli Çivril km,Unpainted
+Fiat Tipo 1.4 S,250.000 TL,1998 km,216.500 km,Gri (Gümüþ) km,03 Ocak 2025 km,Zonguldak Ereðli km,Unpainted
+Fiat Bravo 1.4 Active,420.000 TL,2011 km,280.000 km,Gri (metalik) km,03 Ocak 2025 km,Çanakkale Merkez km,Unpainted
+Skoda Octavia 1.4 TSI Sport,1.264.000 TL,2017 km,91.000 km,Mavi km,03 Ocak 2025 km,Kastamonu Merkez km,Unpainted
+Honda Civic 1.6 i-VTEC Eco Premium,1.270.000 TL,2019 km,23.000 km,Beyaz km,03 Ocak 2025 km,Aksaray Merkez km,Unpainted
+Citroen C3 1.4 HDi X Furio,340.000 TL,2007 km,278.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sancaktepe km,Unpainted
+Toyota Corolla 1.33 Life,848.000 TL,2014 km,71.000 km,Gri km,03 Ocak 2025 km,Adana Tufanbeyli km,Unpainted
+Volkswagen Polo 1.0 TSi Comfortline,1.010.000 TL,2021 km,53.000 km,Turuncu km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Unpainted
+Renault Fluence 1.5 dCi Touch Plus,650.000 TL,2014 km,216.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Eyyübiye km,Unpainted
+Hyundai Getz 1.4 DOHC AB AC,525.000 TL,2010 km,82.000 km,Siyah km,03 Ocak 2025 km,Aydýn Köþk km,Unpainted
+Fiat Linea 1.3 Multijet Emotion Plus,485.000 TL,2011 km,210.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sancaktepe km,Unpainted
+Hyundai Accent Era 1.4 Team,475.000 TL,2007 km,148.678 km,Beyaz km,03 Ocak 2025 km,Mardin Artuklu km,Unpainted
+Mercedes - Benz C 200 All-Terrain,3.215.000 TL,2023 km,14.750 km,Siyah km,03 Ocak 2025 km,Aydýn Didim km,Unpainted
+Hyundai i20 1.4 CRDi Jump,425.000 TL,2013 km,178.250 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Küçükçekmece km,Unpainted
+Dacia Sandero 1.0 Ambiance,650.000 TL,2020 km,42.000 km,Beyaz km,03 Ocak 2025 km,Adana Yüreðir km,Unpainted
+Ford Focus 1.6 TDCi Trend,530.000 TL,2008 km,265.000 km,Gri km,03 Ocak 2025 km,Ankara Sincan km,Unpainted
+Volkswagen Golf 1.0 TSi Impression,1.100.000 TL,2022 km,102.000 km,Beyaz km,03 Ocak 2025 km,Kýrklareli Lüleburgaz km,Unpainted
+Opel Astra 1.6 Edition,615.750 TL,2012 km,199.000 km,Füme km,03 Ocak 2025 km,Malatya Yeþilyurt km,Unpainted
+Honda Civic 1.6 i-VTEC Elegance,880.000 TL,2011 km,134.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Arnavutköy km,Unpainted
+Renault Clio 1.2 Joy,685.000 TL,2019 km,60.000 km,Gri (titanyum) km,03 Ocak 2025 km,Erzurum Tortum km,Unpainted
+Honda Civic 1.6 Elegance,1.250.000 TL,2017 km,33.000 km,Lacivert km,03 Ocak 2025 km,Ýstanbul Þiþli km,Unpainted
+Volkswagen Polo 1.2 TDi Trendline,611.000 TL,2013 km,145.500 km,Siyah km,03 Ocak 2025 km,Ýstanbul Kaðýthane km,Unpainted
+Citroen C3 1.2 PureTech Feel Bold,895.000 TL,2021 km,107.000 km,Kýrmýzý km,03 Ocak 2025 km,Kars Merkez km,Unpainted
+Renault Clio 1.0 TCe Joy,880.000 TL,2020 km,57.032 km,Kýrmýzý km,03 Ocak 2025 km,Kocaeli Çayýrova km,Unpainted
+BMW 3 Serisi 320i ED 40th Year Edition,1.620.000 TL,2015 km,150.000 km,Füme km,03 Ocak 2025 km,Ýstanbul Tuzla km,Unpainted
+Fiat Egea 1.4 Fire Easy Plus,690.000 TL,2019 km,44.000 km,Beyaz km,03 Ocak 2025 km,Diyarbakýr Ergani km,Unpainted
+Volkswagen Jetta 1.2 TSi Trendline,685.000 TL,2015 km,207.500 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Karaköprü km,Unpainted
+Fiat Egea 1.4 Fire Urban,875.000 TL,2024 km,18.200 km,Beyaz km,03 Ocak 2025 km,Giresun Merkez km,Unpainted
+Volkswagen Jetta 1.6 TDi Trendline,625.000 TL,2012 km,263.000 km,Gri (metalik) km,03 Ocak 2025 km,Antalya Kepez km,Unpainted
+Fiat Egea 1.4 Fire Urban,695.000 TL,2021 km,90.000 km,Gri km,03 Ocak 2025 km,Ýstanbul Arnavutköy km,Unpainted
+Renault Clio 1.2 Joy,645.000 TL,2014 km,50.000 km,Siyah km,03 Ocak 2025 km,Ankara Kahramankazan km,Unpainted
+Renault Clio 1.2 Joy,595.000 TL,2014 km,167.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sultangazi km,Unpainted
+Opel Astra 1.6 Essentia,650.000 TL,2013 km,124.000 km,Beyaz km,03 Ocak 2025 km,Erzurum Yakutiye km,Unpainted
+Fiat Egea 1.4 Fire Urban,660.000 TL,2016 km,70.000 km,Gri km,03 Ocak 2025 km,Adana Ceyhan km,Unpainted
+Fiat Egea 1.4 Fire Urban,653.000 TL,2018 km,70.000 km,Beyaz km,03 Ocak 2025 km,Bartýn Merkez km,Unpainted
+Fiat Egea 1.4 Fire Urban Plus,685.000 TL,2020 km,67.700 km,Bordo km,03 Ocak 2025 km,Kocaeli Körfez km,Unpainted
+Toyota Corolla 1.33 Life,650.000 TL,2015 km,156.000 km,Kahverengi km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Unpainted
+Opel Corsa 1.2 Turbo Edition,1.034.000 TL,2024 km,21.000 km,Beyaz km,03 Ocak 2025 km,Aksaray Merkez km,Unpainted
+Fiat Egea 1.4 Fire Street,740.000 TL,2023 km,15.000 km,Beyaz km,03 Ocak 2025 km,Aksaray Merkez km,Unpainted
+Chevrolet Aveo 1.2 S,450.000 TL,2011 km,55.000 km,Beyaz km,03 Ocak 2025 km,Aksaray Merkez km,Unpainted
+Opel Astra 1.6 Edition,695.000 TL,2015 km,180.000 km,Beyaz km,03 Ocak 2025 km,Muþ Merkez km,Unpainted
+Honda Civic 1.6 i-VTEC Eco Executive,1.320.000 TL,2020 km,75.600 km,Mavi km,03 Ocak 2025 km,Kocaeli Baþiskele km,Unpainted
+Fiat Punto 1.4 Popstar S&S,615.000 TL,2016 km,84.000 km,Beyaz km,03 Ocak 2025 km,Malatya Yeþilyurt km,Unpainted
+Opel Astra 1.6 Enjoy,485.000 TL,2009 km,247.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Balýkesir Edremit km,Unpainted
+Fiat Linea 1.3 Multijet Active Plus,457.000 TL,2012 km,163.000 km,Beyaz km,03 Ocak 2025 km,Manisa Yunusemre km,Unpainted
+Toyota Auris 1.4 D-4D Advance Skypack,829.000 TL,2013 km,175.157 km,Kahverengi km,03 Ocak 2025 km,Eskiþehir Odunpazarý km,Unpainted
+Hyundai i20 1.4 MPI Jump,875.000 TL,2023 km,51.000 km,Beyaz km,03 Ocak 2025 km,Aydýn Söke km,Unpainted
+Opel Astra 1.4 T Sport Still,755.000 TL,2014 km,153.000 km,Beyaz km,03 Ocak 2025 km,Kütahya Tavþanlý km,Unpainted
+Tofaþ Þahin 1.6,170.000 TL,1993 km,850.000 km,Bej km,03 Ocak 2025 km,Antalya Serik km,Unpainted
+Toyota Corolla 1.6 Comfort,560.000 TL,2008 km,275.000 km,Gri km,03 Ocak 2025 km,Erzincan Merkez km,Unpainted
+Volkswagen Passat 1.6 TDi BlueMotion Comfortline,1.465.000 TL,2018 km,124.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Bakýrköy km,Unpainted
+Fiat Linea 1.3 Multijet Active Plus,450.000 TL,2013 km,187.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Kartal km,Unpainted
+Toyota Corolla 1.6 Dream,1.269.900 TL,2020 km,69.000 km,Beyaz km,03 Ocak 2025 km,Adana Seyhan km,Unpainted
+BMW 1 Serisi 118i Joy Plus,1.190.000 TL,2017 km,99.500 km,Beyaz km,03 Ocak 2025 km,Adana Seyhan km,Unpainted
+Toyota Corolla 1.6 Dream,1.317.500 TL,2020 km,38.700 km,Beyaz km,03 Ocak 2025 km,Adýyaman Merkez km,Unpainted
+Fiat Linea 1.3 Multijet Urban,585.000 TL,2014 km,134.000 km,Füme km,03 Ocak 2025 km,Bursa Nilüfer km,Unpainted
+Hyundai i20 1.4 MPI Style,1.020.000 TL,2022 km,6.001 km,Beyaz km,03 Ocak 2025 km,Kocaeli Ýzmit km,Unpainted
+Skoda Octavia 1.6 TDI Optimal,870.000 TL,2014 km,155.000 km,Siyah km,03 Ocak 2025 km,Kocaeli Derince km,Unpainted
+Volkswagen Passat 1.6 TDi BlueMotion Highline,1.400.000 TL,2016 km,250.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Küçükçekmece km,Unpainted
+BMW 3 Serisi 316i Standart,535.000 TL,2006 km,315.000 km,Füme km,03 Ocak 2025 km,Bursa Osmangazi km,Unpainted
+Citroen C4 X 1.2 PureTech Shine,1.299.750 TL,2024 km,29.847 km,Gri km,03 Ocak 2025 km,Ankara Çankaya km,Unpainted
+Honda Civic 1.6 i-VTEC Elegance,655.000 TL,2011 km,215.000 km,Beyaz km,03 Ocak 2025 km,Sakarya Kaynarca km,Unpainted
+Peugeot 301 1.5 BlueHDI Active,735.000 TL,2020 km,64.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Esenyurt km,Unpainted
+Volkswagen Passat 1.6 TDi BlueMotion Trendline,1.175.000 TL,2017 km,128.000 km,Beyaz km,03 Ocak 2025 km,Diyarbakýr Kayapýnar km,Unpainted
+Fiat Egea 1.3 Multijet Easy,845.000 TL,2022 km,15.000 km,Beyaz km,03 Ocak 2025 km,Bursa Ýnegöl km,Unpainted
+Peugeot 301 1.6 HDi Allure,680.000 TL,2013 km,104.000 km,Beyaz km,03 Ocak 2025 km,Kahramanmaraþ Onikiþubat km,Unpainted-Unchanging
+Renault Megane 1.3 TCe Joy,1.262.900 TL,2023 km,20.673 km,Beyaz km,03 Ocak 2025 km,Ankara Çankaya km,Unpainted-Unchanging
+Renault Clio 1.0 SCe Joy,707.650 TL,2023 km,57.936 km,Mavi km,03 Ocak 2025 km,Ýstanbul Maltepe km,Unpainted-Unchanging
+Honda City 1.5 i-VTEC Executive,1.175.000 TL,2024 km,29.000 km,Kýrmýzý km,03 Ocak 2025 km,Ýzmir Gaziemir km,Unpainted-Unchanging
+Renault Megane 1.5 dCi Extreme,595.000 TL,2008 km,139.345 km,Gri (Gümüþ) km,03 Ocak 2025 km,Eskiþehir Tepebaþý km,Unpainted-Unchanging
+Hyundai Accent Blue 1.6 CRDI Mode Plus,661.000 TL,2013 km,190.000 km,Beyaz km,03 Ocak 2025 km,Adana Sarýçam km,Unpainted-Unchanging
+Renault Clio 1.0 TCe Joy,881.000 TL,2022 km,44.000 km,Beyaz km,03 Ocak 2025 km,Isparta Merkez km,Unpainted-Unchanging
+Volkswagen Golf 1.4 TSi Comfortline,949.000 TL,2013 km,142.000 km,Beyaz km,03 Ocak 2025 km,Afyonkarahisar Merkez km,Unpainted-Unchanging
+Fiat Egea 1.3 Multijet Easy,889.900 TL,2023 km,92.000 km,Beyaz km,03 Ocak 2025 km,Adana Seyhan km,Unpainted-Unchanging
+Toyota Corolla 1.4 D-4D Elegant,710.000 TL,2011 km,164.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Eyyübiye km,Unpainted-Unchanging
+Fiat Egea 1.3 Multijet Easy,1.015.000 TL,2024 km,6.001 km,Beyaz km,03 Ocak 2025 km,Ankara Keçiören km,Unpainted-Unchanging
+Opel Astra 1.6 GL,255.000 TL,1998 km,380.000 km,Beyaz km,03 Ocak 2025 km,Kayseri Melikgazi km,Unpainted-Unchanging
+Volkswagen Passat 1.6 TDi BlueMotion Comfortline,850.000 TL,2012 km,207.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Birecik km,Unpainted-Unchanging
+Renault Clio 1.3 TCe Touch,955.000 TL,2020 km,26.700 km,Kýrmýzý km,03 Ocak 2025 km,Eskiþehir Tepebaþý km,Unpainted-Unchanging
+Opel Astra 1.5 D Edition,1.080.000 TL,2020 km,86.500 km,Beyaz km,03 Ocak 2025 km,Malatya Yeþilyurt km,Unpainted-Unchanging
+Volkswagen Golf 1.6 TDi BlueMotion Midline Plus,123.456 TL,2016 km,254.000 km,Siyah km,03 Ocak 2025 km,Batman Merkez km,Unpainted-Unchanging
+Renault R 12 Toros,255.000 TL,1995 km,29.000 km,Beyaz km,03 Ocak 2025 km,Balýkesir Karesi km,Unpainted-Unchanging
+Renault Symbol 1.5 dCi Joy,590.000 TL,2018 km,170.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Kadýköy km,Unpainted-Unchanging
+Opel Astra 1.4 T Edition Plus,920.000 TL,2019 km,76.000 km,Gri km,03 Ocak 2025 km,Ardahan Merkez km,Unpainted-Unchanging
+Renault R 12 Toros,120.000 TL,1993 km,123.456 km,Beyaz km,03 Ocak 2025 km,Afyonkarahisar Merkez km,Unpainted-Unchanging
+Opel Corsa 1.2 T GS,1.159.000 TL,2023 km,9.940 km,Mavi km,03 Ocak 2025 km,Antalya Konyaaltý km,Unpainted-Unchanging
+Renault Clio 0.9 TCe Joy,740.000 TL,2019 km,35.000 km,Beyaz km,03 Ocak 2025 km,Bursa Gemlik km,Unpainted-Unchanging
+Toyota Corolla 1.6 Dream,1.245.000 TL,2020 km,71.000 km,Beyaz km,03 Ocak 2025 km,Elazýð Kovancýlar km,Unpainted-Unchanging
+Mercedes - Benz C 200 AMG,4.100.000 TL,2023 km,6.200 km,Siyah km,03 Ocak 2025 km,Ýstanbul Beylikdüzü km,Unpainted-Unchanging
+Chevrolet Aveo 1.4 SE,437.000 TL,2007 km,83.000 km,Beyaz km,03 Ocak 2025 km,Ankara Keçiören km,Unpainted-Unchanging
+Tofaþ Þahin 5 Vites,165.000 TL,1992 km,220.000 km,Bej km,03 Ocak 2025 km,Yozgat Yerköy km,Unpainted-Unchanging
+Renault Fluence 1.5 dCi Touch Plus,625.000 TL,2015 km,290.000 km,Beyaz km,03 Ocak 2025 km,Diyarbakýr Sur km,Unpainted-Unchanging
+Toyota Corolla 1.5 Vision,1.235.000 TL,2021 km,67.000 km,Beyaz km,03 Ocak 2025 km,Malatya Battalgazi km,Unpainted-Unchanging
+Fiat Siena 1.4 EL,275.000 TL,1999 km,200.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Erzincan Merkez km,Unpainted-Unchanging
+BMW 5 Serisi 520i Premium,1.725.000 TL,2014 km,105.000 km,Beyaz km,03 Ocak 2025 km,Ýzmir Balçova km,Unpainted-Unchanging
+Peugeot 308 1.6 HDi Comfort,530.000 TL,2009 km,189.000 km,Bej km,03 Ocak 2025 km,Gaziantep Þahinbey km,Unpainted-Unchanging
+Ford Focus 1.6 TDCi Trend X,675.000 TL,2012 km,185.000 km,Beyaz km,03 Ocak 2025 km,Zonguldak Merkez km,Unpainted-Unchanging
+Opel Vectra 2.0 GLS,230.000 TL,1995 km,266.000 km,Beyaz km,03 Ocak 2025 km,Denizli Çivril km,Unpainted-Unchanging
+Fiat Bravo 1.4 Active,420.000 TL,2011 km,280.000 km,Gri (metalik) km,03 Ocak 2025 km,Çanakkale Merkez km,Unpainted-Unchanging
+Skoda Octavia 1.4 TSI Sport,1.264.000 TL,2017 km,91.000 km,Mavi km,03 Ocak 2025 km,Kastamonu Merkez km,Unpainted-Unchanging
+Honda Civic 1.6 i-VTEC Eco Premium,1.270.000 TL,2019 km,23.000 km,Beyaz km,03 Ocak 2025 km,Aksaray Merkez km,Unpainted-Unchanging
+Citroen C3 1.4 HDi X Furio,340.000 TL,2007 km,278.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sancaktepe km,Unpainted-Unchanging
+Toyota Corolla 1.33 Life,848.000 TL,2014 km,71.000 km,Gri km,03 Ocak 2025 km,Adana Tufanbeyli km,Unpainted-Unchanging
+Volkswagen Polo 1.0 TSi Comfortline,1.010.000 TL,2021 km,53.000 km,Turuncu km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Unpainted-Unchanging
+Renault Fluence 1.5 dCi Touch Plus,650.000 TL,2014 km,216.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Eyyübiye km,Unpainted-Unchanging
+Hyundai Getz 1.4 DOHC AB AC,525.000 TL,2010 km,82.000 km,Siyah km,03 Ocak 2025 km,Aydýn Köþk km,Unpainted-Unchanging
+Fiat Linea 1.3 Multijet Emotion Plus,485.000 TL,2011 km,210.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sancaktepe km,Unpainted-Unchanging
+Mercedes - Benz C 200 All-Terrain,3.215.000 TL,2023 km,14.750 km,Siyah km,03 Ocak 2025 km,Aydýn Didim km,Unpainted-Unchanging
+Dacia Sandero 1.0 Ambiance,650.000 TL,2020 km,42.000 km,Beyaz km,03 Ocak 2025 km,Adana Yüreðir km,Unpainted-Unchanging
+Ford Focus 1.6 TDCi Trend,530.000 TL,2008 km,265.000 km,Gri km,03 Ocak 2025 km,Ankara Sincan km,Unpainted-Unchanging
+Volkswagen Golf 1.0 TSi Impression,1.100.000 TL,2022 km,102.000 km,Beyaz km,03 Ocak 2025 km,Kýrklareli Lüleburgaz km,Unpainted-Unchanging
+Opel Astra 1.6 Edition,615.750 TL,2012 km,199.000 km,Füme km,03 Ocak 2025 km,Malatya Yeþilyurt km,Unpainted-Unchanging
+Honda Civic 1.6 i-VTEC Elegance,880.000 TL,2011 km,134.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Arnavutköy km,Unpainted-Unchanging
+Renault Clio 1.2 Joy,685.000 TL,2019 km,60.000 km,Gri (titanyum) km,03 Ocak 2025 km,Erzurum Tortum km,Unpainted-Unchanging
+Honda Civic 1.6 Elegance,1.250.000 TL,2017 km,33.000 km,Lacivert km,03 Ocak 2025 km,Ýstanbul Þiþli km,Unpainted-Unchanging
+Volkswagen Polo 1.2 TDi Trendline,611.000 TL,2013 km,145.500 km,Siyah km,03 Ocak 2025 km,Ýstanbul Kaðýthane km,Unpainted-Unchanging
+Citroen C3 1.2 PureTech Feel Bold,895.000 TL,2021 km,107.000 km,Kýrmýzý km,03 Ocak 2025 km,Kars Merkez km,Unpainted-Unchanging
+Renault Clio 1.0 TCe Joy,880.000 TL,2020 km,57.032 km,Kýrmýzý km,03 Ocak 2025 km,Kocaeli Çayýrova km,Unpainted-Unchanging
+BMW 3 Serisi 320i ED 40th Year Edition,1.620.000 TL,2015 km,150.000 km,Füme km,03 Ocak 2025 km,Ýstanbul Tuzla km,Unpainted-Unchanging
+Fiat Egea 1.4 Fire Easy Plus,690.000 TL,2019 km,44.000 km,Beyaz km,03 Ocak 2025 km,Diyarbakýr Ergani km,Unpainted-Unchanging
+Volkswagen Jetta 1.2 TSi Trendline,685.000 TL,2015 km,207.500 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Karaköprü km,Unpainted-Unchanging
+Fiat Egea 1.4 Fire Urban,875.000 TL,2024 km,18.200 km,Beyaz km,03 Ocak 2025 km,Giresun Merkez km,Unpainted-Unchanging
+Volkswagen Jetta 1.6 TDi Trendline,625.000 TL,2012 km,263.000 km,Gri (metalik) km,03 Ocak 2025 km,Antalya Kepez km,Unpainted-Unchanging
+Fiat Egea 1.4 Fire Urban,695.000 TL,2021 km,90.000 km,Gri km,03 Ocak 2025 km,Ýstanbul Arnavutköy km,Unpainted-Unchanging
+Renault Clio 1.2 Joy,645.000 TL,2014 km,50.000 km,Siyah km,03 Ocak 2025 km,Ankara Kahramankazan km,Unpainted-Unchanging
+Renault Clio 1.2 Joy,595.000 TL,2014 km,167.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sultangazi km,Unpainted-Unchanging
+Opel Astra 1.6 Essentia,650.000 TL,2013 km,124.000 km,Beyaz km,03 Ocak 2025 km,Erzurum Yakutiye km,Unpainted-Unchanging
+Fiat Egea 1.4 Fire Urban,660.000 TL,2016 km,70.000 km,Gri km,03 Ocak 2025 km,Adana Ceyhan km,Unpainted-Unchanging
+Fiat Egea 1.4 Fire Urban,653.000 TL,2018 km,70.000 km,Beyaz km,03 Ocak 2025 km,Bartýn Merkez km,Unpainted-Unchanging
+Fiat Egea 1.4 Fire Urban Plus,685.000 TL,2020 km,67.700 km,Bordo km,03 Ocak 2025 km,Kocaeli Körfez km,Unpainted-Unchanging
+Opel Corsa 1.2 Turbo Edition,1.034.000 TL,2024 km,21.000 km,Beyaz km,03 Ocak 2025 km,Aksaray Merkez km,Unpainted-Unchanging
+Fiat Egea 1.4 Fire Street,740.000 TL,2023 km,15.000 km,Beyaz km,03 Ocak 2025 km,Aksaray Merkez km,Unpainted-Unchanging
+Chevrolet Aveo 1.2 S,450.000 TL,2011 km,55.000 km,Beyaz km,03 Ocak 2025 km,Aksaray Merkez km,Unpainted-Unchanging
+Opel Astra 1.6 Edition,695.000 TL,2015 km,180.000 km,Beyaz km,03 Ocak 2025 km,Muþ Merkez km,Unpainted-Unchanging
+Honda Civic 1.6 i-VTEC Eco Executive,1.320.000 TL,2020 km,75.600 km,Mavi km,03 Ocak 2025 km,Kocaeli Baþiskele km,Unpainted-Unchanging
+Fiat Punto 1.4 Popstar S&S,615.000 TL,2016 km,84.000 km,Beyaz km,03 Ocak 2025 km,Malatya Yeþilyurt km,Unpainted-Unchanging
+Opel Astra 1.6 Enjoy,485.000 TL,2009 km,247.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Balýkesir Edremit km,Unpainted-Unchanging
+Toyota Auris 1.4 D-4D Advance Skypack,829.000 TL,2013 km,175.157 km,Kahverengi km,03 Ocak 2025 km,Eskiþehir Odunpazarý km,Unpainted-Unchanging
+Hyundai i20 1.4 MPI Jump,875.000 TL,2023 km,51.000 km,Beyaz km,03 Ocak 2025 km,Aydýn Söke km,Unpainted-Unchanging
+Tofaþ Þahin 1.6,170.000 TL,1993 km,850.000 km,Bej km,03 Ocak 2025 km,Antalya Serik km,Unpainted-Unchanging
+Toyota Corolla 1.6 Comfort,560.000 TL,2008 km,275.000 km,Gri km,03 Ocak 2025 km,Erzincan Merkez km,Unpainted-Unchanging
+Volkswagen Passat 1.6 TDi BlueMotion Comfortline,1.465.000 TL,2018 km,124.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Bakýrköy km,Unpainted-Unchanging
+Fiat Linea 1.3 Multijet Active Plus,450.000 TL,2013 km,187.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Kartal km,Unpainted-Unchanging
+Toyota Corolla 1.6 Dream,1.269.900 TL,2020 km,69.000 km,Beyaz km,03 Ocak 2025 km,Adana Seyhan km,Unpainted-Unchanging
+BMW 1 Serisi 118i Joy Plus,1.190.000 TL,2017 km,99.500 km,Beyaz km,03 Ocak 2025 km,Adana Seyhan km,Unpainted-Unchanging
+Toyota Corolla 1.6 Dream,1.317.500 TL,2020 km,38.700 km,Beyaz km,03 Ocak 2025 km,Adýyaman Merkez km,Unpainted-Unchanging
+Fiat Linea 1.3 Multijet Urban,585.000 TL,2014 km,134.000 km,Füme km,03 Ocak 2025 km,Bursa Nilüfer km,Unpainted-Unchanging
+Hyundai i20 1.4 MPI Style,1.020.000 TL,2022 km,6.001 km,Beyaz km,03 Ocak 2025 km,Kocaeli Ýzmit km,Unpainted-Unchanging
+Skoda Octavia 1.6 TDI Optimal,870.000 TL,2014 km,155.000 km,Siyah km,03 Ocak 2025 km,Kocaeli Derince km,Unpainted-Unchanging
+Volkswagen Passat 1.6 TDi BlueMotion Highline,1.400.000 TL,2016 km,250.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Küçükçekmece km,Unpainted-Unchanging
+BMW 3 Serisi 316i Standart,535.000 TL,2006 km,315.000 km,Füme km,03 Ocak 2025 km,Bursa Osmangazi km,Unpainted-Unchanging
+Citroen C4 X 1.2 PureTech Shine,1.299.750 TL,2024 km,29.847 km,Gri km,03 Ocak 2025 km,Ankara Çankaya km,Unpainted-Unchanging
+Honda Civic 1.6 i-VTEC Elegance,655.000 TL,2011 km,215.000 km,Beyaz km,03 Ocak 2025 km,Sakarya Kaynarca km,Unpainted-Unchanging
+Peugeot 301 1.5 BlueHDI Active,735.000 TL,2020 km,64.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Esenyurt km,Unpainted-Unchanging
+Volkswagen Passat 1.6 TDi BlueMotion Trendline,1.175.000 TL,2017 km,128.000 km,Beyaz km,03 Ocak 2025 km,Diyarbakýr Kayapýnar km,Unpainted-Unchanging
+Fiat Egea 1.3 Multijet Easy,845.000 TL,2022 km,15.000 km,Beyaz km,03 Ocak 2025 km,Bursa Ýnegöl km,Unpainted-Unchanging
+Ford Focus 1.5 TDCi Trend X,945.000 TL,2018 km,167.000 km,Beyaz km,03 Ocak 2025 km,Bitlis Tatvan km,Unpainted-Unchanging
+Toyota Corolla 1.5 Vision,1.160.000 TL,2023 km,22.000 km,Diðer km,03 Ocak 2025 km,Hatay Antakya km,Unpainted-Unchanging
+Ford Focus 1.6 Ti-VCT Titanium,1.027.000 TL,2017 km,89.500 km,Kýrmýzý km,03 Ocak 2025 km,Isparta Merkez km,Unpainted-Unchanging
+Opel Astra 1.4 T Enjoy,917.000 TL,2016 km,114.000 km,Mavi km,03 Ocak 2025 km,Isparta Merkez km,Unpainted-Unchanging
+Opel Astra 1.3 CDTI Essentia Konfor,573.000 TL,2011 km,179.000 km,Siyah km,03 Ocak 2025 km,Isparta Merkez km,Unpainted-Unchanging
+Volkswagen Golf 1.2 TSi Comfortline,917.000 TL,2015 km,119.800 km,Beyaz km,03 Ocak 2025 km,Isparta Merkez km,Unpainted-Unchanging
+Hyundai Accent Blue 1.6 CRDI Mode Plus,806.000 TL,2016 km,137.000 km,Beyaz km,03 Ocak 2025 km,Isparta Merkez km,Unpainted-Unchanging
+Kia Rio 1.0 T-GDI Prestige,1.027.000 TL,2020 km,41.000 km,Kýrmýzý km,03 Ocak 2025 km,Isparta Merkez km,Unpainted-Unchanging
+Opel Astra 1.4 T Enjoy,926.000 TL,2016 km,99.850 km,Gri km,03 Ocak 2025 km,Isparta Merkez km,Unpainted-Unchanging
+Peugeot 301 1.6 HDi Allure,680.000 TL,2013 km,104.000 km,Beyaz km,03 Ocak 2025 km,Kahramanmaraþ Onikiþubat km,Unpainted-Unchanging-Without Tramer
+Renault Megane 1.5 dCi Extreme,595.000 TL,2008 km,139.345 km,Gri (Gümüþ) km,03 Ocak 2025 km,Eskiþehir Tepebaþý km,Unpainted-Unchanging-Without Tramer
+Renault Clio 1.0 TCe Joy,881.000 TL,2022 km,44.000 km,Beyaz km,03 Ocak 2025 km,Isparta Merkez km,Unpainted-Unchanging-Without Tramer
+Fiat Egea 1.3 Multijet Easy,889.900 TL,2023 km,92.000 km,Beyaz km,03 Ocak 2025 km,Adana Seyhan km,Unpainted-Unchanging-Without Tramer
+Toyota Corolla 1.4 D-4D Elegant,710.000 TL,2011 km,164.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Eyyübiye km,Unpainted-Unchanging-Without Tramer
+Fiat Egea 1.3 Multijet Easy,1.015.000 TL,2024 km,6.001 km,Beyaz km,03 Ocak 2025 km,Ankara Keçiören km,Unpainted-Unchanging-Without Tramer
+Opel Astra 1.6 GL,255.000 TL,1998 km,380.000 km,Beyaz km,03 Ocak 2025 km,Kayseri Melikgazi km,Unpainted-Unchanging-Without Tramer
+Volkswagen Passat 1.6 TDi BlueMotion Comfortline,850.000 TL,2012 km,207.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Birecik km,Unpainted-Unchanging-Without Tramer
+Renault Clio 1.3 TCe Touch,955.000 TL,2020 km,26.700 km,Kýrmýzý km,03 Ocak 2025 km,Eskiþehir Tepebaþý km,Unpainted-Unchanging-Without Tramer
+Opel Astra 1.5 D Edition,1.080.000 TL,2020 km,86.500 km,Beyaz km,03 Ocak 2025 km,Malatya Yeþilyurt km,Unpainted-Unchanging-Without Tramer
+Volkswagen Golf 1.6 TDi BlueMotion Midline Plus,123.456 TL,2016 km,254.000 km,Siyah km,03 Ocak 2025 km,Batman Merkez km,Unpainted-Unchanging-Without Tramer
+Renault Symbol 1.5 dCi Joy,590.000 TL,2018 km,170.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Kadýköy km,Unpainted-Unchanging-Without Tramer
+Opel Astra 1.4 T Edition Plus,920.000 TL,2019 km,76.000 km,Gri km,03 Ocak 2025 km,Ardahan Merkez km,Unpainted-Unchanging-Without Tramer
+Opel Corsa 1.2 T GS,1.159.000 TL,2023 km,9.940 km,Mavi km,03 Ocak 2025 km,Antalya Konyaaltý km,Unpainted-Unchanging-Without Tramer
+Renault Clio 0.9 TCe Joy,740.000 TL,2019 km,35.000 km,Beyaz km,03 Ocak 2025 km,Bursa Gemlik km,Unpainted-Unchanging-Without Tramer
+Renault Fluence 1.5 dCi Touch Plus,625.000 TL,2015 km,290.000 km,Beyaz km,03 Ocak 2025 km,Diyarbakýr Sur km,Unpainted-Unchanging-Without Tramer
+Toyota Corolla 1.5 Vision,1.235.000 TL,2021 km,67.000 km,Beyaz km,03 Ocak 2025 km,Malatya Battalgazi km,Unpainted-Unchanging-Without Tramer
+BMW 5 Serisi 520i Premium,1.725.000 TL,2014 km,105.000 km,Beyaz km,03 Ocak 2025 km,Ýzmir Balçova km,Unpainted-Unchanging-Without Tramer
+Ford Focus 1.6 TDCi Trend X,675.000 TL,2012 km,185.000 km,Beyaz km,03 Ocak 2025 km,Zonguldak Merkez km,Unpainted-Unchanging-Without Tramer
+Fiat Bravo 1.4 Active,420.000 TL,2011 km,280.000 km,Gri (metalik) km,03 Ocak 2025 km,Çanakkale Merkez km,Unpainted-Unchanging-Without Tramer
+Skoda Octavia 1.4 TSI Sport,1.264.000 TL,2017 km,91.000 km,Mavi km,03 Ocak 2025 km,Kastamonu Merkez km,Unpainted-Unchanging-Without Tramer
+Citroen C3 1.4 HDi X Furio,340.000 TL,2007 km,278.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sancaktepe km,Unpainted-Unchanging-Without Tramer
+Fiat Linea 1.3 Multijet Emotion Plus,485.000 TL,2011 km,210.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sancaktepe km,Unpainted-Unchanging-Without Tramer
+Mercedes - Benz C 200 All-Terrain,3.215.000 TL,2023 km,14.750 km,Siyah km,03 Ocak 2025 km,Aydýn Didim km,Unpainted-Unchanging-Without Tramer
+Dacia Sandero 1.0 Ambiance,650.000 TL,2020 km,42.000 km,Beyaz km,03 Ocak 2025 km,Adana Yüreðir km,Unpainted-Unchanging-Without Tramer
+Volkswagen Golf 1.0 TSi Impression,1.100.000 TL,2022 km,102.000 km,Beyaz km,03 Ocak 2025 km,Kýrklareli Lüleburgaz km,Unpainted-Unchanging-Without Tramer
+Opel Astra 1.6 Edition,615.750 TL,2012 km,199.000 km,Füme km,03 Ocak 2025 km,Malatya Yeþilyurt km,Unpainted-Unchanging-Without Tramer
+Honda Civic 1.6 i-VTEC Elegance,880.000 TL,2011 km,134.000 km,Siyah km,03 Ocak 2025 km,Ýstanbul Arnavutköy km,Unpainted-Unchanging-Without Tramer
+Renault Clio 1.2 Joy,685.000 TL,2019 km,60.000 km,Gri (titanyum) km,03 Ocak 2025 km,Erzurum Tortum km,Unpainted-Unchanging-Without Tramer
+Honda Civic 1.6 Elegance,1.250.000 TL,2017 km,33.000 km,Lacivert km,03 Ocak 2025 km,Ýstanbul Þiþli km,Unpainted-Unchanging-Without Tramer
+Volkswagen Polo 1.2 TDi Trendline,611.000 TL,2013 km,145.500 km,Siyah km,03 Ocak 2025 km,Ýstanbul Kaðýthane km,Unpainted-Unchanging-Without Tramer
+Renault Clio 1.0 TCe Joy,880.000 TL,2020 km,57.032 km,Kýrmýzý km,03 Ocak 2025 km,Kocaeli Çayýrova km,Unpainted-Unchanging-Without Tramer
+Volkswagen Jetta 1.2 TSi Trendline,685.000 TL,2015 km,207.500 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Karaköprü km,Unpainted-Unchanging-Without Tramer
+Volkswagen Jetta 1.6 TDi Trendline,625.000 TL,2012 km,263.000 km,Gri (metalik) km,03 Ocak 2025 km,Antalya Kepez km,Unpainted-Unchanging-Without Tramer
+Renault Clio 1.2 Joy,645.000 TL,2014 km,50.000 km,Siyah km,03 Ocak 2025 km,Ankara Kahramankazan km,Unpainted-Unchanging-Without Tramer
+Renault Clio 1.2 Joy,595.000 TL,2014 km,167.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Sultangazi km,Unpainted-Unchanging-Without Tramer
+Opel Astra 1.6 Essentia,650.000 TL,2013 km,124.000 km,Beyaz km,03 Ocak 2025 km,Erzurum Yakutiye km,Unpainted-Unchanging-Without Tramer
+Fiat Egea 1.4 Fire Urban,660.000 TL,2016 km,70.000 km,Gri km,03 Ocak 2025 km,Adana Ceyhan km,Unpainted-Unchanging-Without Tramer
+Fiat Egea 1.4 Fire Urban,653.000 TL,2018 km,70.000 km,Beyaz km,03 Ocak 2025 km,Bartýn Merkez km,Unpainted-Unchanging-Without Tramer
+Fiat Egea 1.4 Fire Urban Plus,685.000 TL,2020 km,67.700 km,Bordo km,03 Ocak 2025 km,Kocaeli Körfez km,Unpainted-Unchanging-Without Tramer
+Opel Astra 1.6 Edition,695.000 TL,2015 km,180.000 km,Beyaz km,03 Ocak 2025 km,Muþ Merkez km,Unpainted-Unchanging-Without Tramer
+Fiat Punto 1.4 Popstar S&S,615.000 TL,2016 km,84.000 km,Beyaz km,03 Ocak 2025 km,Malatya Yeþilyurt km,Unpainted-Unchanging-Without Tramer
+Opel Astra 1.6 Enjoy,485.000 TL,2009 km,247.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Balýkesir Edremit km,Unpainted-Unchanging-Without Tramer
+Hyundai i20 1.4 MPI Jump,875.000 TL,2023 km,51.000 km,Beyaz km,03 Ocak 2025 km,Aydýn Söke km,Unpainted-Unchanging-Without Tramer
+Fiat Linea 1.3 Multijet Active Plus,450.000 TL,2013 km,187.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Kartal km,Unpainted-Unchanging-Without Tramer
+Toyota Corolla 1.6 Dream,1.269.900 TL,2020 km,69.000 km,Beyaz km,03 Ocak 2025 km,Adana Seyhan km,Unpainted-Unchanging-Without Tramer
+BMW 1 Serisi 118i Joy Plus,1.190.000 TL,2017 km,99.500 km,Beyaz km,03 Ocak 2025 km,Adana Seyhan km,Unpainted-Unchanging-Without Tramer
+Toyota Corolla 1.6 Dream,1.317.500 TL,2020 km,38.700 km,Beyaz km,03 Ocak 2025 km,Adýyaman Merkez km,Unpainted-Unchanging-Without Tramer
+Hyundai i20 1.4 MPI Style,1.020.000 TL,2022 km,6.001 km,Beyaz km,03 Ocak 2025 km,Kocaeli Ýzmit km,Unpainted-Unchanging-Without Tramer
+Volkswagen Passat 1.6 TDi BlueMotion Highline,1.400.000 TL,2016 km,250.000 km,Beyaz km,03 Ocak 2025 km,Ýstanbul Küçükçekmece km,Unpainted-Unchanging-Without Tramer
+Honda Civic 1.6 i-VTEC Elegance,655.000 TL,2011 km,215.000 km,Beyaz km,03 Ocak 2025 km,Sakarya Kaynarca km,Unpainted-Unchanging-Without Tramer
+Ford Focus 1.5 TDCi Trend X,945.000 TL,2018 km,167.000 km,Beyaz km,03 Ocak 2025 km,Bitlis Tatvan km,Unpainted-Unchanging-Without Tramer
+Toyota Corolla 1.5 Vision,1.160.000 TL,2023 km,22.000 km,Diðer km,03 Ocak 2025 km,Hatay Antakya km,Unpainted-Unchanging-Without Tramer
+Volkswagen Jetta 1.6 TDi Trendline,855.000 TL,2015 km,165.000 km,Beyaz km,03 Ocak 2025 km,Kayseri Melikgazi km,Unpainted-Unchanging-Without Tramer
+Toyota Corolla 1.4 D-4D Terra,420.000 TL,2007 km,418.000 km,Bordo km,03 Ocak 2025 km,Ankara Mamak km,Unpainted-Unchanging-Without Tramer
+Ford Focus 1.6 Ti-VCT Trend,625.000 TL,2009 km,210.000 km,Gri km,03 Ocak 2025 km,Kayseri Melikgazi km,Unpainted-Unchanging-Without Tramer
+Renault Megane 1.5 Blue DCI Touch,975.000 TL,2019 km,165.000 km,Beyaz km,03 Ocak 2025 km,Erzincan Merkez km,Unpainted-Unchanging-Without Tramer
+Renault Scenic 1.6 Privilege,520.000 TL,2006 km,173.150 km,Füme km,03 Ocak 2025 km,Ýstanbul Ümraniye km,Unpainted-Unchanging-Without Tramer
+Ford Focus 1.6 TDCi Trend,480.000 TL,2006 km,177.000 km,Mavi km,03 Ocak 2025 km,Ankara Etimesgut km,Unpainted-Unchanging-Without Tramer
+Fiat Egea 1.3 Multijet Easy Plus,790.000 TL,2021 km,52.000 km,Beyaz km,03 Ocak 2025 km,Mersin Mezitli km,Unpainted-Unchanging-Without Tramer
+Fiat Egea 1.4 Fire Urban Plus,705.000 TL,2020 km,81.000 km,Beyaz km,03 Ocak 2025 km,Sakarya Adapazarý km,Unpainted-Unchanging-Without Tramer
+Volkswagen Passat 1.4 TSi BlueMotion Trendline,1.225.000 TL,2017 km,125.500 km,Beyaz km,03 Ocak 2025 km,Aðrý Patnos km,Unpainted-Unchanging-Without Tramer
+Ford Focus 1.6 TDCi Titanium,760.000 TL,2013 km,250.000 km,Lacivert km,03 Ocak 2025 km,Adana Seyhan km,Unpainted-Unchanging-Without Tramer
+Opel Astra 1.6 Edition,715.000 TL,2017 km,105.000 km,Beyaz km,03 Ocak 2025 km,Diyarbakýr Ergani km,Unpainted-Unchanging-Without Tramer
+Fiat Egea 1.4 Fire Easy,650.000 TL,2022 km,70.000 km,Beyaz km,03 Ocak 2025 km,Gaziantep Þahinbey km,Unpainted-Unchanging-Without Tramer
+Chevrolet Aveo 1.3 D LT,445.000 TL,2012 km,194.000 km,Siyah km,03 Ocak 2025 km,Uþak Merkez km,Unpainted-Unchanging-Without Tramer
+Volkswagen Golf 1.6 Trendline,660.000 TL,2012 km,218.900 km,Gri km,03 Ocak 2025 km,Kýrýkkale Merkez km,Unpainted-Unchanging-Without Tramer
+BMW 3 Serisi 316i Standart,470.000 TL,2000 km,266.000 km,Siyah km,03 Ocak 2025 km,Balýkesir Savaþtepe km,Unpainted-Unchanging-Without Tramer
+Renault Megane 1.5 dCi Extreme,467.000 TL,2008 km,238.200 km,Gri (Gümüþ) km,03 Ocak 2025 km,Ýzmir Bornova km,Unpainted-Unchanging-Without Tramer
+Renault Symbol 1.5 dCi Expression,475.000 TL,2010 km,155.000 km,Gri km,03 Ocak 2025 km,Ýstanbul Küçükçekmece km,Unpainted-Unchanging-Without Tramer
+BMW 4 Serisi 420i Gran Coupe M Sport,3.150.000 TL,2022 km,32.700 km,Mavi km,03 Ocak 2025 km,Antalya Muratpaþa km,Unpainted-Unchanging-Without Tramer
+Toyota Yaris 1.33 Style X-Trend,900.000 TL,2016 km,80.000 km,Beyaz km,03 Ocak 2025 km,Kýrýkkale Merkez km,Unpainted-Unchanging-Without Tramer
+Renault Megane 1.6 Joy,870.000 TL,2017 km,68.000 km,Beyaz km,03 Ocak 2025 km,Batman Merkez km,Unpainted-Unchanging-Without Tramer
+Renault Fluence 1.5 dCi Touch Plus,725.000 TL,2015 km,191.000 km,Beyaz km,03 Ocak 2025 km,Karabük Safranbolu km,Unpainted-Unchanging-Without Tramer
+Seat Ibiza 1.2 TSI Style,675.000 TL,2016 km,137.000 km,Beyaz km,03 Ocak 2025 km,Elazýð Merkez km,Unpainted-Unchanging-Without Tramer
+Opel Astra 1.6 Edition Plus,765.000 TL,2016 km,116.000 km,Lacivert km,03 Ocak 2025 km,Ýzmir Karþýyaka km,Unpainted-Unchanging-Without Tramer
+Renault Megane 1.5 dCi Touch,885.000 TL,2017 km,189.500 km,Füme km,03 Ocak 2025 km,Kayseri Kocasinan km,Unpainted-Unchanging-Without Tramer
+Fiat Stilo 1.6 Actual,350.000 TL,2005 km,135.000 km,Beyaz km,03 Ocak 2025 km,Þanlýurfa Karaköprü km,Unpainted-Unchanging-Without Tramer
+Renault Clio 1.5 dCi Joy,637.500 TL,2017 km,160.000 km,Beyaz km,03 Ocak 2025 km,Kahramanmaraþ Onikiþubat km,Unpainted-Unchanging-Without Tramer
+Chevrolet Cruze 1.6 LT,490.000 TL,2012 km,162.500 km,Siyah km,03 Ocak 2025 km,Ýzmir Çiðli km,Unpainted-Unchanging-Without Tramer
+BMW 3 Serisi 320i ED M Plus,1.350.000 TL,2015 km,176.000 km,Siyah km,03 Ocak 2025 km,Þanlýurfa Karaköprü km,Unpainted-Unchanging-Without Tramer
+Toyota Corolla 1.6 Vision,1.250.000 TL,2019 km,79.000 km,Beyaz km,03 Ocak 2025 km,Artvin Merkez km,Unpainted-Unchanging-Without Tramer
+Renault Talisman 1.6 dCi Touch,1.010.000 TL,2016 km,124.000 km,Gri (Gümüþ) km,03 Ocak 2025 km,Hatay Arsuz km,Unpainted-Unchanging-Without Tramer
+Renault Megane 1.3 TCe Joy,1.050.000 TL,2021 km,57.500 km,Beyaz km,03 Ocak 2025 km,Tokat Merkez km,Unpainted-Unchanging-Without Tramer
+Ford Focus 1.0 EcoBoost Active Stil,1.300.000 TL,2023 km,6.001 km,Mavi (metalik) km,03 Ocak 2025 km,Ýzmir Bayraklý km,Unpainted-Unchanging-Without Tramer
+Tofaþ Þahin 5 Vites,165.000 TL,1994 km,150.000 km,Beyaz km,03 Ocak 2025 km,Yalova Merkez km,Unpainted-Unchanging-Without Tramer
+Fiat Egea 1.4 Fire Urban Plus,700.000 TL,2019 km,90.000 km,Beyaz km,03 Ocak 2025 km,Ankara Keçiören km,Unpainted-Unchanging-Without Tramer
+Opel Corsa 1.2 Turbo Edition,1.020.000 TL,2023 km,20.900 km,Gri (metalik) km,03 Ocak 2025 km,Sivas Merkez km,Unpainted-Unchanging-Without Tramer
+Renault Clio 1.4 Authentique,410.000 TL,2005 km,167.800 km,Bej km,03 Ocak 2025 km,Ankara Sincan km,Unpainted-Unchanging-Without Tramer
+Fiat Egea 1.4 Fire Easy,642.000 TL,2021 km,71.000 km,Beyaz km,03 Ocak 2025 km,Elazýð Merkez km,Unpainted-Unchanging-Without Tramer
+Opel Corsa 1.4 Color Edition,710.000 TL,2015 km,104.000 km,Beyaz km,03 Ocak 2025 km,Bursa Ýnegöl km,Unpainted-Unchanging-Without Tramer
+Toyota Auris 1.4 D-4D Comfort Extra,725.000 TL,2011 km,159.000 km,Füme km,03 Ocak 2025 km,Manisa Yunusemre km,Unpainted-Unchanging-Without Tramer
+Dacia Lodgy 1.5 dCi Stepway,670.000 TL,2017 km,249.000 km,Gri km,03 Ocak 2025 km,Tunceli Merkez km,Unpainted-Unchanging-Without Tramer
+Renault Clio 1.5 dCi Joy,650.000 TL,2014 km,121.000 km,Kýrmýzý km,03 Ocak 2025 km,Bursa Ýnegöl km,Unpainted-Unchanging-Without Tramer
+Opel Astra 1.4 Club,368.000 TL,2004 km,259.000 km,Beyaz km,03 Ocak 2025 km,Osmaniye Kadirli km,Unpainted-Unchanging-Without Tramer
+Renault Fluence 1.5 dCi Extreme,500.000 TL,2011 km,290.000 km,Gri km,03 Ocak 2025 km,Gaziantep Nurdaðý km,Unpainted-Unchanging-Without Tramer
+Opel Meriva 1.6 Cosmo,430.000 TL,2003 km,280.000 km,Beyaz km,03 Ocak 2025 km,Tokat Zile km,Unpainted-Unchanging-Without Tramer
+Renault Clio 1.2 Joy,590.000 TL,2013 km,82.000 km,Beyaz km,03 Ocak 2025 km,Eskiþehir Tepebaþý km,Unpainted-Unchanging-Without Tramer
+Honda Civic 1.6 i-VTEC ECO Elegance,1.355.000 TL,2021 km,85.000 km,Beyaz km,03 Ocak 2025 km,Ankara Etimesgut km,Unpainted-Unchanging-Without Tramer
+Dacia Sandero 1.5 dCi Stepway,630.000 TL,2016 km,180.000 km,Gri km,03 Ocak 2025 km,Gaziantep Þehitkamil km,Unpainted-Unchanging-Without Tramer
