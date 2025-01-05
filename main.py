@@ -4,46 +4,50 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import utlis
 import shutil
+import re
+from functools import lru_cache
+import lxml
+
+
+@lru_cache(maxsize=100)
+def parse_html(html):
+    return BeautifulSoup(html, 'lxml')
+
 
 def scrape_and_save(stop_event):
-
     headers = {
         'Referer': 'https://itunes.apple.com',
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) '
-                    'Chrome/75.0.3770.142 Safari/537.36'
+                      'Chrome/75.0.3770.142 Safari/537.36'
     }
 
     proxies = {"http": "http://111.233.225.166:1234"}
     all_cars = []
-
+    session = requests.Session()
     # dict key:damage information value:url
     url_dic = {
 
-        "Badly damaged": [
-            "https://www.arabam.com/ikinci-el/otomobil?damagestatus=A%C4%9F%C4%B1r%20Hasarl%C4%B1&take=50&page=",
-            "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=A%C4%9F%C4%B1r+Hasarl%C4%B1&take=50&page=",
-            "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=A%C4%9F%C4%B1r+Hasarl%C4%B1&take=50&page="],
-
         "Unchanging": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=De%C4%9Fi%C5%9Fensiz&take=50&page=",
-                    "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=De%C4%9Fi%C5%9Fensiz&take=50"
-                    "&page=",
-                    "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=De%C4%9Fi%C5%9Fensiz&take=50&page="],
+                       "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=De%C4%9Fi%C5%9Fensiz&take=50"
+                       "&page=",
+                       "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=De%C4%9Fi%C5%9Fensiz&take=50"
+                       "&page="],
 
         "Without Tramer": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=Tramersiz&take=50&page=",
-                        "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Tramersiz&take=50&page=",
-                        "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Tramersiz&take=50&page="],
+                           "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Tramersiz&take=50&page=",
+                           "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Tramersiz&take=50&page="],
 
         "Unpainted": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=Boyas%C4%B1z&take=50&page=",
-                    "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Boyas%C4%B1z&take=50&page=",
-                    "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Boyas%C4%B1z&take=50&page="
-                    ],
+                      "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Boyas%C4%B1z&take=50&page=",
+                      "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Boyas%C4%B1z&take=50&page="
+                      ],
 
         "Unpainted-Unchanging": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=Boyas%C4%B1z+ve+De%C4%9Fi%C5"
-                                "%9Fensiz&take=50&page=",
-                                "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Boyas%C4%B1z+ve+De%C4"
-                                "%9Fi%C5%9Fensiz&take=50&page=",
-                                "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Boyas%C4%B1z+ve+De%C4"
-                                "%9Fi%C5%9Fensiz&take=50&page="],
+                                 "%9Fensiz&take=50&page=",
+                                 "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Boyas%C4%B1z+ve+De%C4"
+                                 "%9Fi%C5%9Fensiz&take=50&page=",
+                                 "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Boyas%C4%B1z+ve+De%C4"
+                                 "%9Fi%C5%9Fensiz&take=50&page="],
 
         "Unpainted-Unchanging-Without Tramer": [
             "https://www.arabam.com/ikinci-el/otomobil?damagestatus=Boyas%C4%B1z,"
@@ -51,11 +55,13 @@ def scrape_and_save(stop_event):
             "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Boyas%C4%B1z,"
             "+De%C4%9Fi%C5%9Fensiz+ve+Tramersiz&sort=startedAt.desc&take=50&page=",
             "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Boyas%C4%B1z,"
-            "+De%C4%9Fi%C5%9Fensiz+ve+Tramersiz&sort=startedAt.desc&take=50&page="]
+            "+De%C4%9Fi%C5%9Fensiz+ve+Tramersiz&sort=startedAt.desc&take=50&page="],
+
+        "Badly damaged": [
+            "https://www.arabam.com/ikinci-el/otomobil?damagestatus=A%C4%9F%C4%B1r%20Hasarl%C4%B1&take=50&page=",
+            "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=A%C4%9F%C4%B1r+Hasarl%C4%B1&take=50&page=",
+            "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=A%C4%9F%C4%B1r+Hasarl%C4%B1&take=50&page="]
     }
-
-
-
 
     for key in url_dic:
         for url in url_dic[key]:
@@ -64,10 +70,10 @@ def scrape_and_save(stop_event):
                 if stop_event.is_set():  # Stop işareti kontrol ediliyor
                     print("Scrape işlemi durduruldu.")
                     return  # Döngüden çık ve işlemi durdur.
-                 
+
                 print(f'{url}{page}')
                 try:
-                    response = requests.get(f'{url}{page}',
+                    response = session.get(f'{url}{page}',
                                             headers=headers, proxies=proxies)
                     # print(response)
                     response = response.text
@@ -82,13 +88,15 @@ def scrape_and_save(stop_event):
                 # This code is contributed by Susobhan Akhuli
 
                 else:
-                    soup = BeautifulSoup(response, "lxml")
+                    cleaned_html = re.sub(r'<script.*?</script>', '', response)
+                    cleaned_html = re.sub(r'<! - .*? ?', '', cleaned_html)
+                    soup = parse_html(cleaned_html)
                     cars = soup.find_all('tr', class_="listing-list-item should-hover bg-white")
 
                     for car in cars:
                         car_ = ""
                         brand = car.find("div",
-                                        class_="listing-text-new word-break val-middle color-black2018").get_text().strip()
+                                         class_="listing-text-new word-break val-middle color-black2018").get_text().strip()
                         car_ += brand + ","
                         num = 0
                         print(brand)
@@ -117,7 +125,7 @@ def scrape_and_save(stop_event):
 
                     dataframe1 = pd.read_csv('car1.txt', encoding='windows-1254', on_bad_lines='skip')
                     dataframe1.columns = ['Brand', 'Price', 'Year', 'Kilometer', 'Color', 'Date', 'Province/District',
-                                        'Damage Information']
+                                          'Damage Information']
 
                     dataframe1 = utlis.arrange_df(dataframe1)
                     dataframe2 = pd.read_csv('data.csv', low_memory=False)
@@ -129,9 +137,7 @@ def scrape_and_save(stop_event):
 
                     result.to_csv('data.csv', index=None)
 
- 
     result = pd.read_csv("data.csv", low_memory=False)
     result = result.drop_duplicates()
     result = result.dropna()
     result.to_csv('data.csv', index=None)
-
