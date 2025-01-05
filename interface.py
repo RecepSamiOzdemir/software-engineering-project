@@ -1,7 +1,55 @@
-from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QGridLayout, QLineEdit, QComboBox, QPushButton, QTableWidget, QTableWidgetItem, QHBoxLayout, QLabel, QMessageBox, QInputDialog
+from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QGridLayout, QLineEdit, QComboBox, QPushButton, QTableWidget, QTableWidgetItem, QHBoxLayout, QLabel, QMessageBox, QInputDialog, QDialog, QTextEdit
 import sys
 import pandas as pd
 import matplotlib.pyplot as plt
+from main import scrape_and_save
+from PyQt5.QtCore import QThread, pyqtSignal
+
+class FetchDataWorker(QThread):
+    log_signal = pyqtSignal(str)
+    finished_signal = pyqtSignal(str)
+
+    def run(self):
+        try:
+            # Veri çekme işlemini burada yapıyoruz
+            self.log_signal.emit("Veri çekme işlemi başladı...\n")
+            data_file = scrape_and_save()  # scrape_and_save fonksiyonunu çağırıyoruz
+            self.log_signal.emit(f"Veri çekme işlemi tamamlandı: {data_file}")
+            self.finished_signal.emit("Veri çekme işlemi başarıyla tamamlandı.")
+        except Exception as e:
+            self.log_signal.emit(f"Hata: {str(e)}")
+            self.finished_signal.emit("Veri çekme işlemi başarısız oldu.")
+
+class FetchDataDialog(QDialog):
+    def __init__(self):
+        super().__init__()
+        self.setWindowTitle("Veri Çekme İşlemi")
+        self.setGeometry(200, 200, 600, 400)
+
+        layout = QVBoxLayout()
+        self.log_text = QTextEdit()
+        self.log_text.setReadOnly(True)
+        layout.addWidget(self.log_text)
+
+        self.close_button = QPushButton("Kapat")
+        self.close_button.setEnabled(False)
+        self.close_button.clicked.connect(self.close)
+        layout.addWidget(self.close_button)
+
+        self.setLayout(layout)
+
+        self.worker = FetchDataWorker()
+        self.worker.log_signal.connect(self.update_log)
+        self.worker.finished_signal.connect(self.on_finished)
+        self.worker.start()
+
+    def update_log(self, message):
+        self.log_text.append(message)
+
+    def on_finished(self, message):
+        self.update_log(message)
+        self.close_button.setEnabled(True)
+
 
 def load_data():
     try:
@@ -27,32 +75,30 @@ def filter_data(data, brand, model, min_price, max_price, min_year, max_year, mi
         filtered_df = filtered_df[filtered_df["Brand"].str.contains(brand, case=False, na=False)]
     if model:
         filtered_df = filtered_df[filtered_df["Model"].str.contains(model, case=False, na=False)]
-    if min_price:
-        filtered_df = filtered_df[filtered_df["Price"] >= int(min_price)]
-    if max_price:
-        filtered_df = filtered_df[filtered_df["Price"] <= int(max_price)]
-    if min_year:
+    if min_price and min_price.isdigit():
+        filtered_df = filtered_df[filtered_df["Price"] >= float(min_price)]
+    if max_price and max_price.isdigit():
+        filtered_df = filtered_df[filtered_df["Price"] <= float(max_price)]
+    if min_year and min_year.isdigit():
         filtered_df = filtered_df[filtered_df["Year"] >= int(min_year)]
-    if max_year:
+    if max_year and max_year.isdigit():
         filtered_df = filtered_df[filtered_df["Year"] <= int(max_year)]
-    if min_kilometer:
-        filtered_df = filtered_df[filtered_df["Kilometer"] >= int(min_kilometer)]
-    if max_kilometer:
-        filtered_df = filtered_df[filtered_df["Kilometer"] <= int(max_kilometer)]
+    if min_kilometer and min_kilometer.isdigit():
+        filtered_df = filtered_df[filtered_df["Kilometer"] >= float(min_kilometer)]
+    if max_kilometer and max_kilometer.isdigit():
+        filtered_df = filtered_df[filtered_df["Kilometer"] <= float(max_kilometer)]
     if color:
         filtered_df = filtered_df[filtered_df["Color"].str.contains(color, case=False, na=False)]
     if province:
         filtered_df = filtered_df[filtered_df["Province"].str.contains(province, case=False, na=False)]
     if district:
         filtered_df = filtered_df[filtered_df["District"].str.contains(district, case=False, na=False)]
-    if sherry:
-        filtered_df = filtered_df[filtered_df["Sherry"].str.contains(sherry, case=False, na=False)]
     if damage != "All":
         filtered_df = filtered_df[filtered_df["Damage Information"] == damage]
 
     update_table(filtered_df, table_widget)
-
     return filtered_df
+
 
 def clear_filters(table_widget, *inputs):
     # Tüm filtreleri temizle ve tabloyu verisiz olarak yenile
@@ -103,8 +149,7 @@ class CarDataViewer(QWidget):
 
         filter_layout = QGridLayout()
 
-        #sütunlar için filtreleme
-        
+        # Sütunlar için filtreleme
         self.brand_entry = QLineEdit()
         filter_layout.addWidget(QLabel("Brand:"), 0, 0)
         filter_layout.addWidget(self.brand_entry, 0, 1)
@@ -149,14 +194,14 @@ class CarDataViewer(QWidget):
         filter_layout.addWidget(QLabel("Province:"), 5, 0)
         filter_layout.addWidget(self.province_entry, 5, 1)
 
-        self.sherry_entry = QLineEdit()
-        filter_layout.addWidget(QLabel("Sherry:"), 5, 2)
-        filter_layout.addWidget(self.sherry_entry, 5, 3)
-
         self.damage_combobox = QComboBox()
-        self.damage_combobox.addItems(["All", "Without Tramer", "Badly damaged", "Unchanging", "Unpainted", "Unpainted-Unchanging", "Unpainted-Unchanging-Without Tramer"])
-        filter_layout.addWidget(QLabel("Damage Report:"), 6, 0)
-        filter_layout.addWidget(self.damage_combobox, 6, 1)
+        self.damage_combobox.addItems(
+            [
+                "All", "Without Tramer", "Badly damaged", "Unchanging", "Unpainted", "Unpainted-Unchanging", "Unpainted-Unchanging-Without Tramer"
+            ]
+        )
+        filter_layout.addWidget(QLabel("Damage Report:"), 5, 2)
+        filter_layout.addWidget(self.damage_combobox, 5, 3)
 
         layout.addLayout(filter_layout)
 
@@ -173,6 +218,10 @@ class CarDataViewer(QWidget):
         self.show_graph_button = QPushButton("Show Valuation Trend Graph")
         self.show_graph_button.clicked.connect(self.show_graph)
         button_layout.addWidget(self.show_graph_button)
+
+        self.scrape_button = QPushButton("Fetch Data")
+        self.scrape_button.clicked.connect(self.fetch_data)
+        button_layout.addWidget(self.scrape_button)
 
         layout.addLayout(button_layout)
 
@@ -194,24 +243,39 @@ class CarDataViewer(QWidget):
         max_year = self.max_year_entry.text()
         min_kilometer = self.min_kilometer_entry.text()
         max_kilometer = self.max_kilometer_entry.text()
+        district = self.district_entry.text()
         color = self.color_entry.text()
         province = self.province_entry.text()
-        district = self.district_entry.text()
         damage = self.damage_combobox.currentText()
-        sherry = self.sherry_entry.text()
 
-        self.filtered_data = filter_data(self.data, brand, model, min_price, max_price, min_year, max_year, min_kilometer, max_kilometer, color, province, district, damage, sherry, self.table_widget)
+        self.filtered_data = filter_data(
+            self.data, brand, model, min_price, max_price, min_year, max_year, min_kilometer, max_kilometer, color, province, district, damage, None, self.table_widget
+        )
 
     def clear_filters(self):
-        clear_filters(self.table_widget, self.brand_entry, self.model_entry, self.min_price_entry, self.max_price_entry, self.min_year_entry, self.max_year_entry, self.min_kilometer_entry, self.max_kilometer_entry, self.color_entry, self.province_entry, self.district_entry, self.damage_combobox, self.sherry_entry)
+        clear_filters(
+            self.table_widget, self.brand_entry, self.model_entry, self.min_price_entry, self.max_price_entry,
+            self.min_year_entry, self.max_year_entry, self.min_kilometer_entry, self.max_kilometer_entry,
+            self.color_entry, self.province_entry, self.district_entry, self.damage_combobox
+        )
 
     def show_graph(self):
         attribute = self.get_group_by_attribute()
         if attribute:
             plot_valuation_trends(self.filtered_data, attribute)
 
+    def fetch_data(self):
+        dialog = FetchDataDialog()
+        dialog.exec_()  # Dialogu modal olarak açıyoruz
+
+        # Veri çekme işlemi sonrası veriyi yükle ve tabloyu güncelle
+        self.data = load_data()
+        self.filtered_data = self.data
+        update_table(self.data, self.table_widget)
+
+
     def get_group_by_attribute(self):
-        items = ["Brand", "Model", "Year", "Kilometer", "Color", "Province", "District", "Damage Information", "Sherry"]
+        items = ["Brand", "Model", "Year", "Kilometer", "Color", "Province", "District", "Damage Information"]
         attribute, ok = QInputDialog.getItem(self, "Select the Attribute to Group by", "Choose attribute:", items, 0, False)
         if ok:
             return attribute
