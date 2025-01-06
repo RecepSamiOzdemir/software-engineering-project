@@ -115,9 +115,14 @@ class CarDataViewer(QWidget):
 def load_data():
     try:
         df = pd.read_csv("data.csv")
+        # Price ve Kilometer sütunlarını sayısal değerlere dönüştür
+        df["Price"] = pd.to_numeric(df["Price"], errors="coerce", downcast="float")
+        df["Kilometer"] = pd.to_numeric(df["Kilometer"], errors="coerce", downcast="float")
+
     except FileNotFoundError:
         df = pd.DataFrame(columns=["Brand", "Model", "Price", "Year", "Kilometer", "Color", "Province", "District", "Damage Information", "Sherry"])
     return df
+
 
 def update_table(filtered_df, table_widget):
     # Filtrelenmiş verilerle tabloyu güncelleme
@@ -181,7 +186,26 @@ def plot_valuation_trends(filtered_df, group_by_attribute):
         QMessageBox.warning(None, "Invalid Attribute", f"Attribute '{group_by_attribute}' not found in data.")
         return
 
-    trend_data = filtered_df.groupby(group_by_attribute)["Price"].mean().reset_index()
+    # Price sütununu sayısal değerlere dönüştür
+    try:
+        filtered_df["Price"] = pd.to_numeric(filtered_df["Price"], errors="coerce")
+    except Exception as e:
+        QMessageBox.warning(None, "Error", f"Error converting 'Price' column to numeric: {str(e)}")
+        return
+
+    # Kilometer sütununu sayısal değerlere dönüştür
+    try:
+        filtered_df["Kilometer"] = pd.to_numeric(filtered_df["Kilometer"], errors="coerce")
+    except Exception as e:
+        QMessageBox.warning(None, "Error", f"Error converting 'Kilometer' column to numeric: {str(e)}")
+        return
+
+    trend_data = (
+        filtered_df.groupby(group_by_attribute)["Price"]
+        .mean()
+        .reset_index()
+        .sort_values(by="Price", ascending=False)
+    )
 
     plt.figure(figsize=(10, 6))
     plt.bar(trend_data[group_by_attribute], trend_data["Price"], color="skyblue")
@@ -190,8 +214,17 @@ def plot_valuation_trends(filtered_df, group_by_attribute):
     plt.title(f"Valuation Trends by {group_by_attribute}")
     plt.xticks(rotation=45)
 
+    # Bilimsel notasyonu devre dışı bırak
+    plt.ticklabel_format(style='plain', axis='y')
+    plt.gca().yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{x:,.0f}'))  # Noktalı format
+
+    if group_by_attribute == "Kilometer":
+        plt.gca().yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{x:,.0f}'))  # Kilometre için de format
+
     plt.tight_layout()
     plt.show()
+
+
 
 class CarDataViewer(QWidget):
     def __init__(self):
@@ -312,18 +345,21 @@ class CarDataViewer(QWidget):
         self.filtered_data = filter_data(
             self.data, brand, model, min_price, max_price, min_year, max_year, min_kilometer, max_kilometer, color, province, district, damage, None, self.table_widget
         )
-
     def clear_filters(self):
         clear_filters(
             self.table_widget, self.brand_entry, self.model_entry, self.min_price_entry, self.max_price_entry,
             self.min_year_entry, self.max_year_entry, self.min_kilometer_entry, self.max_kilometer_entry,
             self.color_entry, self.province_entry, self.district_entry, self.damage_combobox
         )
+        self.filtered_data = self.data  # Filtrelenmiş veriyi tüm verilere sıfırlar
+
 
     def show_graph(self):
         attribute = self.get_group_by_attribute()
         if attribute:
-            plot_valuation_trends(self.filtered_data, attribute)
+            # Tablodaki mevcut verileri tekrar alarak grafiği günceller
+            current_data = self.data if self.filtered_data.empty else self.filtered_data
+            plot_valuation_trends(current_data, attribute)
 
     def fetch_data(self):
         stop_event = threading.Event()
