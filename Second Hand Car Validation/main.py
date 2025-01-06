@@ -1,61 +1,12 @@
-import time
-
 import requests
+import threading
 from bs4 import BeautifulSoup
 import pandas as pd
 import utlis
+import shutil
 import re
 from functools import lru_cache
-
-headers = {
-    'Referer': 'https://itunes.apple.com',
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) '
-                  'Chrome/75.0.3770.142 Safari/537.36'
-}
-
-proxies = {"http": "http://111.233.225.166:1234"}
-
-# dict key:damage information value:url
-url_dic = {
-
-    "Badly damaged": [
-        "https://www.arabam.com/ikinci-el/otomobil?damagestatus=A%C4%9F%C4%B1r%20Hasarl%C4%B1&sort=startedAt.desc"
-        "&take=50&page=",
-        "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=A%C4%9F%C4%B1r+Hasarl%C4%B1&sort=startedAt.desc&take=50&page=",
-        "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=A%C4%9F%C4%B1r+Hasarl%C4%B1&sort=startedAt.desc&take=50&page="],
-
-    "Unchanging": [
-        "https://www.arabam.com/ikinci-el/otomobil?damagestatus=De%C4%9Fi%C5%9Fensiz&sort=startedAt.desc&take=50&page=",
-        "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=De%C4%9Fi%C5%9Fensiz&sort=startedAt.desc&take=50"
-        "&page=",
-        "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=De%C4%9Fi%C5%9Fensiz&sort=startedAt.desc&take=50&page="],
-
-    "Without Tramer": [
-        "https://www.arabam.com/ikinci-el/otomobil?damagestatus=Tramersiz&sort=startedAt.desc&take=50&page=",
-        "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Tramersiz&sort=startedAt.desc&take=50&page=",
-        "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Tramersiz&sort=startedAt.desc&take=50&page="],
-
-    "Unpainted": [
-        "https://www.arabam.com/ikinci-el/otomobil?damagestatus=Boyas%C4%B1z&sort=startedAt.desc&take=50&page=",
-        "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Boyas%C4%B1z&sort=startedAt.desc&take=50&page=",
-        "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Boyas%C4%B1z&sort=startedAt.desc&take=50&page="
-    ],
-
-    "Unpainted-Unchanging": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=Boyas%C4%B1z+ve+De%C4%9Fi%C5"
-                             "%9Fensiz&sort=startedAt.desc&take=50&page=",
-                             "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Boyas%C4%B1z+ve+De%C4"
-                             "%9Fi%C5%9Fensiz&sort=startedAt.desc&take=50&page=",
-                             "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Boyas%C4%B1z+ve+De%C4"
-                             "%9Fi%C5%9Fensiz&sort=startedAt.desc&take=50&page="],
-
-    "Unpainted-Unchanging-Without Tramer": [
-        "https://www.arabam.com/ikinci-el/otomobil?damagestatus=Boyas%C4%B1z,"
-        "+De%C4%9Fi%C5%9Fensiz+ve+Tramersiz&sort=startedAt.desc&take=50&page=",
-        "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Boyas%C4%B1z,"
-        "+De%C4%9Fi%C5%9Fensiz+ve+Tramersiz&sort=startedAt.desc&take=50&page=",
-        "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Boyas%C4%B1z,"
-        "+De%C4%9Fi%C5%9Fensiz+ve+Tramersiz&sort=startedAt.desc&take=50&page="]
-}
+import lxml
 
 
 @lru_cache(maxsize=100)
@@ -63,17 +14,67 @@ def parse_html(html):
     return BeautifulSoup(html, 'lxml')
 
 
-def new_data():
+def scrape_and_save(stop_event):
+    headers = {
+        'Referer': 'https://itunes.apple.com',
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) '
+                      'Chrome/75.0.3770.142 Safari/537.36'
+    }
+
+    proxies = {"http": "http://111.233.225.166:1234"}
     all_cars = []
     session = requests.Session()
+    # dict key:damage information value:url
+    url_dic = {
+
+        "Unchanging": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=De%C4%9Fi%C5%9Fensiz&take=50&page=",
+                       "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=De%C4%9Fi%C5%9Fensiz&take=50"
+                       "&page=",
+                       "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=De%C4%9Fi%C5%9Fensiz&take=50"
+                       "&page="],
+
+        "Without Tramer": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=Tramersiz&take=50&page=",
+                           "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Tramersiz&take=50&page=",
+                           "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Tramersiz&take=50&page="],
+
+        "Unpainted": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=Boyas%C4%B1z&take=50&page=",
+                      "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Boyas%C4%B1z&take=50&page=",
+                      "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Boyas%C4%B1z&take=50&page="
+                      ],
+
+        "Unpainted-Unchanging": ["https://www.arabam.com/ikinci-el/otomobil?damagestatus=Boyas%C4%B1z+ve+De%C4%9Fi%C5"
+                                 "%9Fensiz&take=50&page=",
+                                 "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Boyas%C4%B1z+ve+De%C4"
+                                 "%9Fi%C5%9Fensiz&take=50&page=",
+                                 "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Boyas%C4%B1z+ve+De%C4"
+                                 "%9Fi%C5%9Fensiz&take=50&page="],
+
+        "Unpainted-Unchanging-Without Tramer": [
+            "https://www.arabam.com/ikinci-el/otomobil?damagestatus=Boyas%C4%B1z,"
+            "+De%C4%9Fi%C5%9Fensiz+ve+Tramersiz&sort=startedAt.desc&take=50&page=",
+            "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=Boyas%C4%B1z,"
+            "+De%C4%9Fi%C5%9Fensiz+ve+Tramersiz&sort=startedAt.desc&take=50&page=",
+            "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=Boyas%C4%B1z,"
+            "+De%C4%9Fi%C5%9Fensiz+ve+Tramersiz&sort=startedAt.desc&take=50&page="],
+
+        "Badly damaged": [
+            "https://www.arabam.com/ikinci-el/otomobil?damagestatus=A%C4%9F%C4%B1r%20Hasarl%C4%B1&take=50&page=",
+            "https://www.arabam.com/ikinci-el/otomobil-sahibinden?damagestatus=A%C4%9F%C4%B1r+Hasarl%C4%B1&take=50&page=",
+            "https://www.arabam.com/ikinci-el/otomobil-galeriden?damagestatus=A%C4%9F%C4%B1r+Hasarl%C4%B1&take=50&page="]
+    }
+
     for key in url_dic:
         for url in url_dic[key]:
             for page in range(1, 51):
 
+                if stop_event.is_set():  # Stop işareti kontrol ediliyor
+                    print("Scrape işlemi durduruldu.")
+                    return  # Döngüden çık ve işlemi durdur.
+
                 print(f'{url}{page}')
                 try:
                     response = session.get(f'{url}{page}',
-                                           headers=headers, proxies=proxies)
+                                            headers=headers, proxies=proxies)
                     # print(response)
                     response = response.text
                 except requests.exceptions.ConnectionError as e:
@@ -98,7 +99,7 @@ def new_data():
                                          class_="listing-text-new word-break val-middle color-black2018").get_text().strip()
                         car_ += brand + ","
                         num = 0
-                        # print(brand)
+                        print(brand)
                         car_price = car.find("span", class_="db no-wrap listing-price").get_text().strip()
                         car_ += car_price + ","
                         for info in car.find_all("td", class_="listing-text"):
@@ -107,8 +108,8 @@ def new_data():
                         # key = damage information
                         car_ += key
                         # print(car_)
-                        # print(car_.split(","))
-                        # print(len(car_.split(",")))
+                        print(car_.split(","))
+                        print(len(car_.split(",")))
 
                         if len(car_.split(",")) == 8:
                             all_cars.append(car_)
@@ -133,6 +134,10 @@ def new_data():
                     result = pd.concat(frames)
                     result = result.drop_duplicates()
                     result = result.dropna()
+
                     result.to_csv('data.csv', index=None)
 
-                    yield
+    result = pd.read_csv("data.csv", low_memory=False)
+    result = result.drop_duplicates()
+    result = result.dropna()
+    result.to_csv('data.csv', index=None)
