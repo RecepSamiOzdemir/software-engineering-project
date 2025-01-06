@@ -1,26 +1,131 @@
-from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QGridLayout, QLineEdit, QComboBox, QPushButton, \
-    QTableWidget, QTableWidgetItem, QHBoxLayout, QLabel, QMessageBox, QInputDialog
+from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QGridLayout, QLineEdit, QComboBox, QPushButton, QTableWidget, QTableWidgetItem, QHBoxLayout, QLabel, QMessageBox, QInputDialog, QDialog, QTextEdit
 import sys
 import pandas as pd
 import matplotlib.pyplot as plt
-import main
-import time
-from filelock import FileLock
+from main import scrape_and_save
+from PyQt5.QtCore import QThread, pyqtSignal
 import threading
-import csv
+
+
+class FetchDataWorker(QThread):
+    log_signal = pyqtSignal(str)
+    finished_signal = pyqtSignal(str, int)  # Yeni veri sayısını eklemek için değişiklik
+
+    def __init__(self, stop_event, parent=None):
+        super().__init__(parent)
+        self.stop_event = stop_event
+        self.initial_data_count = 0  # Başlangıçtaki veri sayısı
+
+    def run(self):
+        try:
+            # Başlangıçtaki veri sayısını al
+            try:
+                df = pd.read_csv("data.csv")
+                self.initial_data_count = len(df)
+            except FileNotFoundError:
+                self.initial_data_count = 0
+
+            self.log_signal.emit("Veri çekme işlemi başladı...")
+            scrape_and_save(self.stop_event)  # Veri çekme fonksiyonunu çağır
+
+            # Çekilen yeni veri dosyasını yükle
+            df = pd.read_csv("data.csv")
+            total_data_count = len(df)
+            new_data_count = total_data_count - self.initial_data_count  # Yeni veri sayısını hesapla
+
+            self.log_signal.emit("Veri çekme işlemi tamamlandı.")
+            self.finished_signal.emit("success", new_data_count)  # Yeni veri sayısını ilet
+        except Exception as e:
+            self.log_signal.emit(f"Hata: {str(e)}")
+            self.finished_signal.emit("failure", 0)  # Hata durumunda sıfır veri
+
+
+class FetchDataDialog(QDialog):
+    def __init__(self, stop_event):
+        super().__init__()
+        self.setWindowTitle("Veri Çekme İşlemi")
+        self.setGeometry(200, 200, 600, 400)
+
+        self.stop_event = stop_event
+
+        layout = QVBoxLayout()
+        self.log_text = QTextEdit()
+        self.log_text.setReadOnly(True)
+        layout.addWidget(self.log_text)
+
+        button_layout = QHBoxLayout()
+
+        self.stop_button = QPushButton("Stop")
+        self.stop_button.clicked.connect(self.stop_fetching)
+        button_layout.addWidget(self.stop_button)
+
+        self.close_button = QPushButton("Close")
+        self.close_button.setEnabled(False)
+        self.close_button.clicked.connect(self.close)
+        button_layout.addWidget(self.close_button)
+
+        layout.addLayout(button_layout)
+        self.setLayout(layout)
+
+        self.worker = FetchDataWorker(stop_event)
+        self.worker.log_signal.connect(self.update_log)
+        self.worker.finished_signal.connect(self.on_finished)
+        self.worker.start()
+
+    def update_log(self, message):
+        self.log_text.append(message)
+
+    def on_finished(self, message, new_data_count):
+        if message == "success":
+            self.update_log(f"Veri çekme işlemi başarıyla tamamlandı. Yeni eklenen veri sayısı: {new_data_count}.")
+        else:
+            self.update_log("Veri çekme işlemi sırasında bir hata oluştu.")
+        self.close_button.setEnabled(True)
+        self.stop_button.setEnabled(False)
+
+    def stop_fetching(self):
+        self.update_log("Veri çekme işlemi durduruluyor...")
+        self.stop_event.set()  # stop_event'i tetikle
+        self.stop_button.setEnabled(False)
+
+
+class CarDataViewer(QWidget):
+    def __init__(self):
+        super().__init__()
+
+        self.data = load_data()
+        self.filtered_data = self.data
+
+        self.init_ui()
+
+    def fetch_data(self):
+        stop_event = threading.Event()
+        dialog = FetchDataDialog(stop_event)
+        dialog.exec_()
+
+        # Veri çekme işlemi sonrası veriyi yükle ve tabloyu güncelle
+        self.data = load_data()
+        self.filtered_data = self.data
+        update_table(self.data, self.table_widget)
+
+
+
 
 
 def load_data():
     try:
-        df = pd.read_csv("data.csv", low_memory=False)
+        df = pd.read_csv("data.csv")
+        # Price ve Kilometer sütunlarını sayısal değerlere dönüştür
+        df["Price"] = pd.to_numeric(df["Price"], errors="coerce", downcast="float")
+        df["Kilometer"] = pd.to_numeric(df["Kilometer"], errors="coerce", downcast="float")
+
     except FileNotFoundError:
-        df = pd.DataFrame(columns=["Brand", "Model", "Price", "Year", "Kilometer", "Color", "Province", "District",
-                                   "Damage Information", "Sherry"])
+        df = pd.DataFrame(columns=["Brand", "Model", "Price", "Year", "Kilometer", "Color", "Province", "District", "Damage Information", "Sherry"])
     return df
 
 
 def update_table(filtered_df, table_widget):
-    # Filtrelenmi� verilerle tabloyu g�ncelleme
+    # Filtrelenmiş verilerle tabloyu güncelleme
     table_widget.setRowCount(0)
     for index, row in filtered_df.iterrows():
         row_position = table_widget.rowCount()
@@ -28,46 +133,41 @@ def update_table(filtered_df, table_widget):
         for col, value in enumerate(row):
             table_widget.setItem(row_position, col, QTableWidgetItem(str(value)))
 
-
-def filter_data(data, brand, model, min_price, max_price, min_year, max_year, min_kilometer, max_kilometer, color,
-                province, district, damage, sherry, table_widget):
-    # Kullan�c�ya g�re verileri filtreleme
+def filter_data(data, brand, model, min_price, max_price, min_year, max_year, min_kilometer, max_kilometer, color, province, district, damage, sherry, table_widget):
+    # Kullanıcıya göre verileri filtreleme
     filtered_df = data.copy()
 
     if brand:
         filtered_df = filtered_df[filtered_df["Brand"].str.contains(brand, case=False, na=False)]
     if model:
         filtered_df = filtered_df[filtered_df["Model"].str.contains(model, case=False, na=False)]
-    if min_price:
-        filtered_df = filtered_df[filtered_df["Price"] >= int(min_price)]
-    if max_price:
-        filtered_df = filtered_df[filtered_df["Price"] <= int(max_price)]
-    if min_year:
+    if min_price and min_price.isdigit():
+        filtered_df = filtered_df[filtered_df["Price"] >= float(min_price)]
+    if max_price and max_price.isdigit():
+        filtered_df = filtered_df[filtered_df["Price"] <= float(max_price)]
+    if min_year and min_year.isdigit():
         filtered_df = filtered_df[filtered_df["Year"] >= int(min_year)]
-    if max_year:
+    if max_year and max_year.isdigit():
         filtered_df = filtered_df[filtered_df["Year"] <= int(max_year)]
-    if min_kilometer:
-        filtered_df = filtered_df[filtered_df["Kilometer"] >= int(min_kilometer)]
-    if max_kilometer:
-        filtered_df = filtered_df[filtered_df["Kilometer"] <= int(max_kilometer)]
+    if min_kilometer and min_kilometer.isdigit():
+        filtered_df = filtered_df[filtered_df["Kilometer"] >= float(min_kilometer)]
+    if max_kilometer and max_kilometer.isdigit():
+        filtered_df = filtered_df[filtered_df["Kilometer"] <= float(max_kilometer)]
     if color:
         filtered_df = filtered_df[filtered_df["Color"].str.contains(color, case=False, na=False)]
     if province:
         filtered_df = filtered_df[filtered_df["Province"].str.contains(province, case=False, na=False)]
     if district:
         filtered_df = filtered_df[filtered_df["District"].str.contains(district, case=False, na=False)]
-    if sherry:
-        filtered_df = filtered_df[filtered_df["Sherry"].str.contains(sherry, case=False, na=False)]
     if damage != "All":
         filtered_df = filtered_df[filtered_df["Damage Information"] == damage]
 
     update_table(filtered_df, table_widget)
-
     return filtered_df
 
 
 def clear_filters(table_widget, *inputs):
-    # T�m filtreleri temizle ve tabloyu verisiz olarak yenile
+    # Tüm filtreleri temizle ve tabloyu verisiz olarak yenile
     for input_widget in inputs:
         if isinstance(input_widget, QLineEdit):
             input_widget.clear()
@@ -76,9 +176,8 @@ def clear_filters(table_widget, *inputs):
 
     update_table(viewer.data, table_widget)
 
-
 def plot_valuation_trends(filtered_df, group_by_attribute):
-    # Filtrelenmi� verilerle de�er trendlerini �izme
+    # Filtrelenmiş verilerle değer trendlerini çizme
     if filtered_df.empty:
         QMessageBox.warning(None, "No Data", "No data matches the filters.")
         return
@@ -87,7 +186,26 @@ def plot_valuation_trends(filtered_df, group_by_attribute):
         QMessageBox.warning(None, "Invalid Attribute", f"Attribute '{group_by_attribute}' not found in data.")
         return
 
-    trend_data = filtered_df.groupby(group_by_attribute)["Price"].mean().reset_index()
+    # Price sütununu sayısal değerlere dönüştür
+    try:
+        filtered_df["Price"] = pd.to_numeric(filtered_df["Price"], errors="coerce")
+    except Exception as e:
+        QMessageBox.warning(None, "Error", f"Error converting 'Price' column to numeric: {str(e)}")
+        return
+
+    # Kilometer sütununu sayısal değerlere dönüştür
+    try:
+        filtered_df["Kilometer"] = pd.to_numeric(filtered_df["Kilometer"], errors="coerce")
+    except Exception as e:
+        QMessageBox.warning(None, "Error", f"Error converting 'Kilometer' column to numeric: {str(e)}")
+        return
+
+    trend_data = (
+        filtered_df.groupby(group_by_attribute)["Price"]
+        .mean()
+        .reset_index()
+        .sort_values(by="Price", ascending=False)
+    )
 
     plt.figure(figsize=(10, 6))
     plt.bar(trend_data[group_by_attribute], trend_data["Price"], color="skyblue")
@@ -96,8 +214,16 @@ def plot_valuation_trends(filtered_df, group_by_attribute):
     plt.title(f"Valuation Trends by {group_by_attribute}")
     plt.xticks(rotation=45)
 
+    # Bilimsel notasyonu devre dışı bırak
+    plt.ticklabel_format(style='plain', axis='y')
+    plt.gca().yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{x:,.0f}'))  # Noktalı format
+
+    if group_by_attribute == "Kilometer":
+        plt.gca().yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{x:,.0f}'))  # Kilometre için de format
+
     plt.tight_layout()
     plt.show()
+
 
 
 class CarDataViewer(QWidget):
@@ -117,8 +243,7 @@ class CarDataViewer(QWidget):
 
         filter_layout = QGridLayout()
 
-        # s�tunlar i�in filtreleme
-
+        # Sütunlar için filtreleme
         self.brand_entry = QLineEdit()
         filter_layout.addWidget(QLabel("Brand:"), 0, 0)
         filter_layout.addWidget(self.brand_entry, 0, 1)
@@ -163,16 +288,14 @@ class CarDataViewer(QWidget):
         filter_layout.addWidget(QLabel("Province:"), 5, 0)
         filter_layout.addWidget(self.province_entry, 5, 1)
 
-        self.sherry_entry = QLineEdit()
-        filter_layout.addWidget(QLabel("Sherry:"), 5, 2)
-        filter_layout.addWidget(self.sherry_entry, 5, 3)
-
         self.damage_combobox = QComboBox()
         self.damage_combobox.addItems(
-            ["All", "Without Tramer", "Badly damaged", "Unchanging", "Unpainted", "Unpainted-Unchanging",
-             "Unpainted-Unchanging-Without Tramer"])
-        filter_layout.addWidget(QLabel("Damage Report:"), 6, 0)
-        filter_layout.addWidget(self.damage_combobox, 6, 1)
+            [
+                "All", "Without Tramer", "Badly damaged", "Unchanging", "Unpainted", "Unpainted-Unchanging", "Unpainted-Unchanging-Without Tramer"
+            ]
+        )
+        filter_layout.addWidget(QLabel("Damage Report:"), 5, 2)
+        filter_layout.addWidget(self.damage_combobox, 5, 3)
 
         layout.addLayout(filter_layout)
 
@@ -189,6 +312,10 @@ class CarDataViewer(QWidget):
         self.show_graph_button = QPushButton("Show Valuation Trend Graph")
         self.show_graph_button.clicked.connect(self.show_graph)
         button_layout.addWidget(self.show_graph_button)
+
+        self.scrape_button = QPushButton("Fetch Data")
+        self.scrape_button.clicked.connect(self.fetch_data)
+        button_layout.addWidget(self.scrape_button)
 
         layout.addLayout(button_layout)
 
@@ -210,54 +337,50 @@ class CarDataViewer(QWidget):
         max_year = self.max_year_entry.text()
         min_kilometer = self.min_kilometer_entry.text()
         max_kilometer = self.max_kilometer_entry.text()
+        district = self.district_entry.text()
         color = self.color_entry.text()
         province = self.province_entry.text()
-        district = self.district_entry.text()
         damage = self.damage_combobox.currentText()
-        sherry = self.sherry_entry.text()
 
-        self.filtered_data = filter_data(self.data, brand, model, min_price, max_price, min_year, max_year,
-                                         min_kilometer, max_kilometer, color, province, district, damage, sherry,
-                                         self.table_widget)
-
+        self.filtered_data = filter_data(
+            self.data, brand, model, min_price, max_price, min_year, max_year, min_kilometer, max_kilometer, color, province, district, damage, None, self.table_widget
+        )
     def clear_filters(self):
-        clear_filters(self.table_widget, self.brand_entry, self.model_entry, self.min_price_entry, self.max_price_entry,
-                      self.min_year_entry, self.max_year_entry, self.min_kilometer_entry, self.max_kilometer_entry,
-                      self.color_entry, self.province_entry, self.district_entry, self.damage_combobox,
-                      self.sherry_entry)
+        clear_filters(
+            self.table_widget, self.brand_entry, self.model_entry, self.min_price_entry, self.max_price_entry,
+            self.min_year_entry, self.max_year_entry, self.min_kilometer_entry, self.max_kilometer_entry,
+            self.color_entry, self.province_entry, self.district_entry, self.damage_combobox
+        )
+        self.filtered_data = self.data  # Filtrelenmiş veriyi tüm verilere sıfırlar
+
 
     def show_graph(self):
         attribute = self.get_group_by_attribute()
         if attribute:
-            plot_valuation_trends(self.filtered_data, attribute)
+            # Tablodaki mevcut verileri tekrar alarak grafiği günceller
+            current_data = self.data if self.filtered_data.empty else self.filtered_data
+            plot_valuation_trends(current_data, attribute)
+
+    def fetch_data(self):
+        stop_event = threading.Event()
+        dialog = FetchDataDialog(stop_event)
+        dialog.exec_()
+
+        # Veri çekme işlemi sonrası veriyi yükle ve tabloyu güncelle
+        self.data = load_data()
+        self.filtered_data = self.data
+        update_table(self.data, self.table_widget)
+
 
     def get_group_by_attribute(self):
-        items = ["Brand", "Model", "Year", "Kilometer", "Color", "Province", "District", "Damage Information", "Sherry"]
-        attribute, ok = QInputDialog.getItem(self, "Select the Attribute to Group by", "Choose attribute:", items, 0,
-                                             False)
+        items = ["Brand", "Model", "Year", "Kilometer", "Color", "Province", "District", "Damage Information"]
+        attribute, ok = QInputDialog.getItem(self, "Select the Attribute to Group by", "Choose attribute:", items, 0, False)
         if ok:
             return attribute
         return None
-
-
-csv_file = "data.csv"
-lock = FileLock(f"{csv_file}.lock")  # File lock to manage concurrency
-
-gen = main.new_data()
-
-
-def csv_updater():
-    while True:
-        next(gen)
-        viewer.data = load_data()
-        time.sleep(5)  # Simulate delay between updates
-
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     viewer = CarDataViewer()
     viewer.show()
-    updater_thread = threading.Thread(target=csv_updater, daemon=True)
-    updater_thread.start()
-
-    sys.exit(app.exec_())
+    sys.exit(app.exec_()) 
