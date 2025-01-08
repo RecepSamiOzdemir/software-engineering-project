@@ -1,10 +1,10 @@
 # GUIDE FOR THIS PROJECT
-## GIT CLONE THIS REPOSITORY
-- git clone
-- username: admin
-- password: 123
-- open "login_screen.py" and run
-- If you have an url error, you should change the url
+## NEEDS & NOTES
+- Clone this repository to your local computer
+- Username: admin
+- Password: 123
+- Open "login_screen.py" and run
+- If you have an url error, you should change the url path in the code
 
 ## USER INTERFACE
 
