@@ -108,7 +108,7 @@ def query_data():
         messagebox.showerror("Error", "Please enter valid numeric years!")
         return
 
-    if selected_league in ["Türkiye 1.Lig", "Türkiye Süper Lig"]:
+    if selected_league in ["Trenyol 1.Lig", "Trendyol Süper Lig"]:
         url_file = f"../URLS/generated_urls_{selected_league.replace('', '_').upper()}.txt"
     else:
         url_file = f"../URLS/urls_{selected_league.replace(' ', '_').upper()}.txt"
