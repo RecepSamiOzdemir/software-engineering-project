@@ -1,10 +1,16 @@
 # GUIDE FOR THIS PROJECT
 ## NEEDS & NOTES
 - Clone this repository to your local computer
+- We advise to use python 3.7.4
+- You can use Pycharm or VS Code as IDE
+- Add an interpreter and install required packages in requirements.txt
 - Username: admin
 - Password: 123
 - Open "login_screen.py" and run
-- If you have an url error, you should change the url path in the code
+- If you have an url error, you should change the url path in the code.
+- You should write your local path to run this code
+- If you have a database error, you can delete "merged.db" file and create again by using "merged_db_creation.py"
+- To run "merged_db_creation.py" you should use "merged_data.csv" file
 
 ## USER INTERFACE
 
